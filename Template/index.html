@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Mesti Sukses</title>
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{ @base }}assets/style.css">
+    <link rel="icon" href="{{ @base }}assets/favicon.jpg" type="image/jpg" />
+</head>
+
+<body class="body home-template">
+
+    <div class="container">
+
+        <header class="header ">
+
+            <div class="blog-title">
+                <a href="{{ @base }}" class="blog-title-logo">
+                    <img src="{{ @base }}assets/Mesti Sukses.jpg" alt="Mesti Sukses" />
+                </a>
+            </div>
+        </header>
+
+
+        <div class="wrapper">
+
+            <main class="page">
+
+                <section class="post-list">
+                    <article class="post-item">
+                        <div class="post-item-upper">
+                            <div class="post-item-category">
+                                <a href="#">Bisnis</a>
+                            </div>
+                        </div>
+                        <h2 class="post-item-title">
+                            <a href="#">Golden Circle: Panduan dalam Bisnis</a>
+                        </h2>
+                        <p class="post-item-excerpt">
+                            <repeat group="{{ @posts }}" key="{{ @number }}" value="{{ @post }}">
+                                <a href="{{ @base }}post/{{ @post['file_name'] }}">{{ @post['title'] }}</a>
+                            </repeat>
+                        </p>
+                    </article>
+                </section>
+
+            </main>
+
+        </div>
+
+
+
+        <footer class="footer">
+
+            <section class="copyright">
+                <div class="copyright-disclaimer">Copyright &copy; <a href="{{ @base }}">Mesti Sukses</a> 2020 <span class="copyright-bullet">&bull;</span> All rights reserved.</div>
+            </section>
+
+        </footer>
+
+    </div>
+</body>
+
+</html>
