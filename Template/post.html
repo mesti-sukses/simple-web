@@ -6,12 +6,25 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <title>Hello</title>
+    <title>{{ @post.title }} | Mesti Sukses</title>
 
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="{{ @base }}assets/style.css">
     <link rel="icon" href="{{ @base }}assets/favicon.jpg" type="image/jpg" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155548997-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-155548997-1');
+    </script>
+
 
 </head>
 
@@ -53,7 +66,7 @@
 
             </article>
 
-            <div class="post-end wrapper">
+            <!-- <div class="post-end wrapper">
 
                 <section class="post-nav">
                     <a href="../introduction-to-frontend-frameworks/index.html" class="post-nav-previous">
@@ -63,7 +76,7 @@
                     </a>
                 </section>
 
-            </div>
+            </div> -->
 
         </main>
 
