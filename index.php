@@ -4,7 +4,7 @@
 
     $f3 = \Base::instance();
 
-    $f3->set('base', 'https://mestisukses.com');
+    $f3->set('base', 'https://mestisukses.com/');
     $f3->set('DB', new DB\SQL('sqlite:data.db'));
 
     $f3->route('GET /', 'Page->index');
