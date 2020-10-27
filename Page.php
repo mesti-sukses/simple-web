@@ -2,9 +2,15 @@
     class Page{
 
         function index($f3){
-            $postData = $f3->get('DB')->exec("SELECT * FROM posts");
-            $f3->set('posts', $postData);
+            $categoryData = $f3->get('DB')->exec("SELECT * FROM category JOIN label on label.id_label = category.label");
             // print_r($postData);
+
+            foreach ($categoryData as $id => $category) {
+                $postData = $f3->get('DB')->exec('SELECT * FROM posts WHERE category="'.$category['id_category'].'"');
+                $categoryData[$id]['posts'] = $postData;
+            }
+            $f3->set('categories', $categoryData);
+            // print_r($categoryData);
 
             echo Template::instance()->render('Template/index.html');
         }

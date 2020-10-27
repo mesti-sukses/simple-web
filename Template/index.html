@@ -47,28 +47,31 @@
             <main class="page">
 
                 <section class="post-list">
-                    <article class="post-item">
-                        <div class="post-item-upper">
-                            <div class="post-item-category">
-                                <a href="#">Bisnis</a>
+                    <repeat group="{{ @categories }}" key="{{ @number }}" value="{{ @category }}">
+                        <article class="post-item">
+                            <div class="post-item-upper">
+                                <div class="post-item-category">
+                                    <a href="#">{{ @category['nama'] }}</a>
+                                </div>
                             </div>
-                        </div>
-                        <h2 class="post-item-title">
-                            <a href="#">Golden Circle: Panduan dalam Bisnis</a>
-                        </h2>
-                        <p class="post-item-excerpt">
-                            <repeat group="{{ @posts }}" key="{{ @number }}" value="{{ @post }}">
-                                <a href="{{ @base }}post/{{ @post['file_name'] }}">{{ @post['title'] }}</a>
-                            </repeat>
-                        </p>
-                    </article>
+                            <h2 class="post-item-title">
+                                <a href="#">{{ @category['judul'] }}</a>
+                            </h2>
+                            <p class="post-item-excerpt">
+                                <span>{{ @category['deskripsi'] }}</span>
+                                <ul>
+                                    <repeat group="{{ @category['posts'] }}" key="{{ @number }}" value="{{ @post }}">
+                                        <li><a href="{{ @base }}post/{{ @post['file_name'] }}">{{ @post['title'] }}</a></li>
+                                    </repeat>
+                                </ul>
+                            </p>
+                        </article>
+                    </repeat>
                 </section>
 
             </main>
 
         </div>
-
-
 
         <footer class="footer">
 
