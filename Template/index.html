@@ -45,29 +45,20 @@
         <div class="wrapper">
 
             <main class="page">
-
-                <section class="post-list">
-                    <repeat group="{{ @categories }}" key="{{ @number }}" value="{{ @category }}">
-                        <article class="post-item">
-                            <div class="post-item-upper">
-                                <div class="post-item-category">
-                                    <a href="#">{{ @category['nama'] }}</a>
-                                </div>
-                            </div>
-                            <h2 class="post-item-title">
-                                <a href="#">{{ @category['judul'] }}</a>
-                            </h2>
-                            <p class="post-item-excerpt">
-                                <span>{{ @category['deskripsi'] }}</span>
-                                <ul>
-                                    <repeat group="{{ @category['posts'] }}" key="{{ @number }}" value="{{ @post }}">
-                                        <li><a href="{{ @base }}post/{{ @post['file_name'] }}">{{ @post['title'] }}</a></li>
-                                    </repeat>
-                                </ul>
-                            </p>
-                        </article>
-                    </repeat>
-                </section>
+                <repeat group="{{ @labels }}" key="{{ @number }}" value="{{ @label }}">
+                    <section class="archive">
+                        <h1 class="archive-title">{{ @label.nama }}</h1>
+                        <p class="archive-description">
+                            <ul>
+                                <repeat group="{{ @label.categories }}" key="{{ @idCat }}" value="{{ @category }}">
+                                    <li>
+                                        <a href="{{ @base }}category/{{ @category.id_category }}">{{ @category.judul }}</a>
+                                    </li>
+                                </repeat>
+                            </ul>
+                        </p>
+                    </section>
+                </repeat>
 
             </main>
 

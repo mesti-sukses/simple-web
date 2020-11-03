@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 
 <head>
 
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <title>{{ @post.title }} | Mesti Sukses</title>
+    <title>Mesti Sukses</title>
 
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="{{ @base }}assets/style.css">
     <link rel="icon" href="{{ @base }}assets/favicon.jpg" type="image/jpg" />
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-S1YR0VPCSM"></script>
     <script>
@@ -27,10 +28,9 @@
 
 </head>
 
-<body class="body post-template tag-lifestyle tag-business tag-longform">
+<body class="body home-template">
 
     <div class="container">
-
 
         <header class="header ">
 
@@ -39,46 +39,39 @@
                     <img src="{{ @base }}assets/Mesti Sukses.jpg" alt="Mesti Sukses" />
                 </a>
             </div>
-
         </header>
 
-        <main class="page">
 
-            <article class="post ">
+        <div class="wrapper">
 
-                <div class="wrapper">
+            <main class="page">
 
-
-                    <section class="post-header">
-                        <div class="post-header-category"><a href="#">Bisnis</a></div>
-                        <h1 class="post-header-title">{{ @post.title }}</h1>
-                    </section>
-
-
-                    <div class="post-main">
-                        <div class="post-contents">
-                            {{ @content | raw }}
-                        </div>
-                    </div>
-
-                </div>
-
-            </article>
-
-            <!-- <div class="post-end wrapper">
-
-                <section class="post-nav">
-                    <a href="../introduction-to-frontend-frameworks/index.html" class="post-nav-previous">
-                        <div class="post-nav-inner">
-                            <h4 class="post-nav-title">Prev</h4>
-                        </div>
-                    </a>
+                <section class="post-list">
+                    <repeat group="{{ @categories }}" key="{{ @number }}" value="{{ @category }}">
+                        <article class="post-item">
+                            <div class="post-item-upper">
+                                <div class="post-item-category">
+                                    <a href="#">{{ @category['nama'] }}</a>
+                                </div>
+                            </div>
+                            <h2 class="post-item-title">
+                                <a href="#">{{ @category['judul'] }}</a>
+                            </h2>
+                            <p class="post-item-excerpt">
+                                <span>{{ @category['deskripsi'] }}</span>
+                                <ul>
+                                    <repeat group="{{ @category['posts'] }}" key="{{ @number }}" value="{{ @post }}">
+                                        <li><a href="{{ @base }}post/{{ @post['file_name'] }}">{{ @post['title'] }}</a></li>
+                                    </repeat>
+                                </ul>
+                            </p>
+                        </article>
+                    </repeat>
                 </section>
 
-            </div> -->
+            </main>
 
-        </main>
-
+        </div>
 
         <footer class="footer">
 
