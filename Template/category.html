@@ -59,7 +59,7 @@
                             </h2>
                             <p class="post-item-excerpt">
                                 <span>{{ @category['deskripsi'] }}</span>
-                                <ul>
+                                <ul class="link-list" style="margin-top: 1.5rem;">
                                     <repeat group="{{ @category['posts'] }}" key="{{ @number }}" value="{{ @post }}">
                                         <li><a href="{{ @base }}post/{{ @post['file_name'] }}">{{ @post['title'] }}</a></li>
                                     </repeat>
