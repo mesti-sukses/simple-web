@@ -10,6 +10,15 @@
             }
             $f3->set('labels', $labelData);
 
+            $parseDown = new Parsedown();
+            $ideData = $f3->get('DB')->exec('SELECT * FROM idea');
+            $ide_1 = rand(0, count($ideData)-1);
+            $firstIdea = $ideData[$ide_1];
+            $firstIdea['print'] = $parseDown->text($firstIdea['content']);
+            $firstIdea['detail_print'] = $parseDown->text($firstIdea['detail']);
+            // print_r($firstIdea);
+            $f3->set('firstIdea', $firstIdea);
+
             echo Template::instance()->render('Template/index.html');
         }
 
@@ -42,6 +51,23 @@
             $f3->set('post', $postData[0]);
 
             echo Template::instance()->render('Template/post.html');
+        }
+
+        function idea($f3){
+            $parseDown = new Parsedown();
+            $ideData = $f3->get('DB')->exec('SELECT * FROM idea');
+            $ide_1 = rand(0, count($ideData)-1);
+            $ide_2 = rand(0, count($ideData)-1);
+            $firstIdea = $ideData[$ide_1];
+            $secondIdea = $ideData[$ide_2];
+            $firstIdea['print'] = $parseDown->text($firstIdea['content']);
+            $firstIdea['detail_print'] = $parseDown->text($firstIdea['detail']);
+            $secondIdea['print'] = $parseDown->text($secondIdea['content']);
+            $secondIdea['detail_print'] = $parseDown->text($secondIdea['detail']);
+            // print_r($firstIdea);
+            $f3->set('firstIdea', $firstIdea);
+            $f3->set('secondIdea', $secondIdea);
+            echo Template::instance()->render('Template/idea.html');
         }
 
     }

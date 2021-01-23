@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Ide yang Menginspirasi Kalian</title>
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{ @base }}assets/style.css">
+    <link rel="stylesheet" href="{{ @base }}assets/idea.css">
+    <link rel="icon" href="{{ @base }}assets/favicon.jpg" type="image/jpg" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-J7C78LSP6H"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-J7C78LSP6H');
+    </script>
+
+</head>
+
+<body class="body home-template">
+
+    <div class="container">
+
+        <header class="header ">
+
+            <div class="blog-title">
+                <a href="{{ @base }}" class="blog-title-logo">
+                    <img src="{{ @base }}assets/Mesti Sukses.jpg" alt="Mesti Sukses" />
+                </a>
+            </div>
+        </header>
+
+        <div class="wrapper">
+
+            <main class="page">
+                <div class="row">
+                    <div class="example-1 card">
+                        <div class="wrapper" id="{{ @firstIdea.icon }}">
+                            <div class="data">
+                                <div class="content">
+                                    <span class="card-author">Manajemen Waktu</span>
+                                    <h1 class="title">{{ @firstIdea.title }} <span>: {{ @firstIdea.modal_title }}</span></h1>
+                                    <a href="#open-modal-1" id="read">Read</a>
+                                    <div class="text">
+                                        {{ @firstIdea.print | raw }}
+
+                                        <a href="#open-modal-1" style="float:left">Read More</a>
+                                        <a href="{{ @base }}idea" style="float:right">More Idea</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="example-1 card">
+                        <div class="wrapper" id="{{ @secondIdea.icon }}">
+                            <div class="data">
+                                <div class="content">
+                                    <span class="card-author">Manajemen Waktu</span>
+                                    <h1 class="title">{{ @secondIdea.title }} <span>: {{ @secondIdea.modal_title }}</span></h1>
+                                    <a href="#open-modal-2" id="read">Read</a>
+                                    <div class="text">
+                                        {{ @secondIdea.print | raw }}
+
+                                        <a href="#open-modal-1" style="float:left">Read More</a>
+                                        <a href="{{ @base }}idea" style="float:right">More Idea</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+        </div>
+
+        <footer class="footer">
+
+            <section class="copyright">
+                <div class="copyright-disclaimer">Copyright &copy; <a href="{{ @base }}">Mesti Sukses</a> 2020 <span class="copyright-bullet">&bull;</span> All rights reserved.</div>
+            </section>
+
+        </footer>
+
+        <div id="open-modal-1" class="modal-window">
+            <div>
+                <a href="#" title="Close" class="modal-close">Close</a>
+                <h1>{{ @firstIdea.modal_title }}}</h1>
+                <div>
+                    {{ @firstIdea.print | raw }}
+                    {{ @firstIdea.detail_print | raw }}
+                </div>
+            </div>
+        </div>
+
+        <div id="open-modal-2" class="modal-window">
+            <div>
+                <a href="#" title="Close" class="modal-close">Close</a>
+                <h1>{{ @secondIdea.modal_title }}</h1>
+                <div>
+                    {{ @secondIdea.print | raw }}
+                    {{ @secondIdea.detail_print | raw }}
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
