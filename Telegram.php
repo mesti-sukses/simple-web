@@ -7,10 +7,7 @@
 
             $chatId = $update["message"]["chat"]["id"];
             $message = $update["message"]["text"];
-
-            if (strpos($message, "/ide") === 0) {
-                file_get_contents($path."/sendmessage?chat_id=".$chatId."&text=Ini dari bot kita");
-            }
+            file_get_contents($path."/sendmessage?chat_id=".$chatId."&text=Ini dari bot kita");
         }
     }
     
