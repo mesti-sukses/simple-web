@@ -37,7 +37,7 @@
             "/sendmessage?chat_id=".
             $chatId.
             "&text=".
-            utf8_encode($pesan)
+            urlencode($pesan)
         );
     } else {
         file_get_contents(
