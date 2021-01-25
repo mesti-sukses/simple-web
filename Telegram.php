@@ -18,5 +18,13 @@
             "&text=".
             $firstIdea['content']
         );
+    } else {
+        file_get_contents(
+            $path.
+            "/sendmessage?chat_id=".
+            $chatId.
+            "&text=".
+            "Perintah salah, coba lagi"
+        );
     }
 ?>
