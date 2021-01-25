@@ -4,8 +4,19 @@
 
     $chatId = $update["message"]["chat"]["id"];
     $message = $update["message"]["text"];
-    echo "Test";
+    $lan = $update["from"]["language_code"];
+    $username = $update["from"]["username"];
+    // echo "Test";
+    // if($message == NULL)
+    //     $message = "/start";
+    // if($chatId == NULL)
+    //     $chatId = "935108127";
+    // if($lan == NULL)
+    //     $lan = "en";
+    // if($username == NULL)
+    //     $username = "logicb0ys";
 
+    // Get the idea
     $db = new PDO('sqlite:data.db');
     $ideModel = $db->query('SELECT * FROM idea');
     $ideData = array();
@@ -14,7 +25,6 @@
     }
     $ide_1 = rand(0, count($ideData)-1);
     $firstIdea = $ideData[$ide_1];
-    // print_r($firstIdea);
 
     if(strpos($message, "/today") === 0){
         file_get_contents(
@@ -39,6 +49,13 @@
             "&text=".
             urlencode($pesan)
         );
+
+        // Save the user to mysql database
+        $mysqli = new mysqli("localhost:3306","mestisuk","t3mar1fanS","mestisuk_telegram");
+        $sql = "INSERT INTO user(chat_id, username, language) VALUES ('".$chatId."', '".$username."', '".$lan."')";
+        $mysqli->query($sql);
+        $mysqli->close();
+        // echo $sql;
     } else {
         file_get_contents(
             $path.
