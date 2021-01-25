@@ -24,6 +24,21 @@
             "&text=".
             $firstIdea->content
         );
+    } else if(strpos($message, "/start" === 0)){
+        $pesan = "Selamat datang\n\n
+        Kalian akan menemukan beberapa kalimat motivasi yang ilmiah, empiris dan tentunya menarik.\n
+        Beberapa orang mungkin menganggapnya sebagai omong kosong, beberapa mengatakan bahwa hal tersebut mengubah hidup mereka.\n\n
+        Tapi apakah kalian percaya dengan pendapat orang lain?\n\n
+        BUKTIKAN SENDIRI\n\n\n
+        Beberapa perintah yang bisa kalian gunakan untuk berinteraksi diantaranya:\n
+        \\today - menampilkan ide untuk setiap hari";
+        file_get_contents(
+            $path.
+            "/sendmessage?chat_id=".
+            $chatId.
+            "&text=".
+            utf8_encode($pesan)
+        );
     } else {
         file_get_contents(
             $path.
