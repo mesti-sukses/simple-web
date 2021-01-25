@@ -24,7 +24,7 @@
             "&text=".
             $firstIdea->content
         );
-    } else if(strpos($message, "/start" === 0)){
+    } else if(strpos($message, "/start") === 0){
         $pesan = "Selamat datang\n\n
         Kalian akan menemukan beberapa kalimat motivasi yang ilmiah, empiris dan tentunya menarik.\n
         Beberapa orang mungkin menganggapnya sebagai omong kosong, beberapa mengatakan bahwa hal tersebut mengubah hidup mereka.\n\n
