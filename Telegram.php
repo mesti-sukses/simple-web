@@ -4,11 +4,17 @@
 
     $chatId = $update["message"]["chat"]["id"];
     $message = $update["message"]["text"];
+    echo "Test";
 
-    $db = new SQLite3('data.db');
-    $ideData = $db->exec('SELECT * FROM idea');
+    $db = new PDO('sqlite:data.db');
+    $ideModel = $db->query('SELECT * FROM idea');
+    $ideData = array();
+    while ($row = $ideModel->fetchObject()) {
+        array_push($ideData, $row);
+    }
     $ide_1 = rand(0, count($ideData)-1);
     $firstIdea = $ideData[$ide_1];
+    // print_r($firstIdea);
 
     if(strpos($message, "/today") === 0){
         file_get_contents(
@@ -16,7 +22,7 @@
             "/sendmessage?chat_id=".
             $chatId.
             "&text=".
-            $firstIdea['content']
+            $firstIdea->content
         );
     } else {
         file_get_contents(
