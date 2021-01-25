@@ -1,7 +1,6 @@
 <?php
     require 'vendor/autoload.php';
     require 'Page.php';
-    require 'Telegram.php';
 
     $f3 = \Base::instance();
 
