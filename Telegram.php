@@ -4,8 +4,8 @@
 
     $chatId = $update["message"]["chat"]["id"];
     $message = $update["message"]["text"];
-    $lan = $update["from"]["language_code"];
-    $username = $update["from"]["username"];
+    $lan = $update["message"]["from"]["language_code"];
+    $username = $update["message"]["from"]["username"];
     // echo "Test";
     // if($message == NULL)
     //     $message = "/start";
