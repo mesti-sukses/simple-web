@@ -1,7 +1,5 @@
 <?php
-    $myfile = fopen("assets/weekly_news.txt", "r") or die("Unable to open file!");
-    $message = fread($myfile,filesize("assets/weekly_news.txt"));
-    fclose($myfile);
+    $message = file_get_contents('https://mestisukses.com/assets/weekly_news.txt');
 
     // echo $message;
     $path = "https://api.telegram.org/bot1527520188:AAHmmZ1Exgp9WLFd25NDUR_tHQg-QvQYJ_U";
