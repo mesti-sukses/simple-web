@@ -6,9 +6,10 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <title>Mesti Sukses</title>
+    <title>{{ @categories[0]['judul'] }} | Mesti Sukses</title>
 
     <meta name="HandheldFriendly" content="True" />
+    <meta name="description" content="{{ @categories[0]['deskripsi'] }}">
     <meta property="fb:pages" content="104391331142078" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="{{ @base }}assets/style.css">
@@ -55,9 +56,9 @@
                                     <a href="#">{{ @category['nama'] }}</a>
                                 </div>
                             </div>
-                            <h2 class="post-item-title">
+                            <h1 class="post-item-title">
                                 <a href="#">{{ @category['judul'] }}</a>
-                            </h2>
+                            </h1>
                             <p class="post-item-excerpt">
                                 <span>{{ @category['deskripsi'] }}</span>
                                 <ul class="link-list" style="margin-top: 1.5rem;">

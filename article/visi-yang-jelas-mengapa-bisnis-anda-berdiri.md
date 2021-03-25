@@ -65,7 +65,7 @@ Sekadar mengingatkan bahwa ini adalah sebuah pendapat saya tentang visi yang umu
 Merancang Visi yang Jelas 
 --------------------------
 
-Di atas sudah saya bahas bahwa yang menjadi bahan utama dari visi adalah dengan memiliki **[alasan](http://mestisukses.com/blog/2020/08/31/alasan-untuk-bisnis-start-with-why/)** dan juga **[identitas](http://mestisukses.com/blog/2020/09/14/kekuatan-identitas-siapa-sebenarnya-diri-anda/).** 
+Di atas sudah saya bahas bahwa yang menjadi bahan utama dari visi adalah dengan memiliki alasan dan juga identitas.
 
 Sekarang, bagaimana cara kita membentuk visi bisnis yang jelas ketika sudah mendapatkan alasan dan juga identitas tersebut. 
 

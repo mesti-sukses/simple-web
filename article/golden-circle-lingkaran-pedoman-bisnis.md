@@ -114,5 +114,3 @@ Pendiri Microsoft, Bill Gates dan Paul Allen, awalnya tidak memikirkan apa produ
 Mereka tidak perlu mikir remeh temeh perang harga, promo, diskon dll. Mereka hanya memikirkan visi mereka sendiri. 
 
 So, lihat bisnis yang dibangun oleh dua orang dengan visi besar tersebut sekarang? Apakah kalian mengira bahwa mereka mendapatkan hal tersebut melalui paradigma lama?
-
-Temukan makna kalian sendiri di [sini](http://mestisukses.com/blog/2020/08/31/alasan-untuk-bisnis-start-with-why/).

@@ -65,7 +65,7 @@ So, kembali ke pertanyaan awal tadi, siapa diri kalian sebenarnya? 
 Alasan Tidak Berjalan Tanpa Identitas 
 --------------------------------------
 
-Di artikel minggu lalu, saya sudah membahas tentang [golden circle](http://mestisukses.com/blog/2020/09/07/golden-circle-lingkaran-pedoman-bisnis/) yang merupakan salah satu prinsip yang bisa kalian gunakan untuk mencapai bisnis yang sukses. 
+Di artikel minggu lalu, saya sudah membahas tentang golden circle yang merupakan salah satu prinsip yang bisa kalian gunakan untuk mencapai bisnis yang sukses. 
 
 Tetapi perlu kalian ketahui bahwa **alasan kalian tidak akan bertahan cukup lama tanpa sebuah identitas** 
 

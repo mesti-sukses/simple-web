@@ -140,4 +140,4 @@ Apakah Anda hanya ingin mencari profit semata? Atau Anda ingin populer?
 
 Apapun alasan Anda untuk berbisnis, carilah sekarang. **Tanpa ada alasan untuk berbisnis, bisnis Anda akan hampa, kosong, dan kemungkinan besar akan terjebak dalam strategi bisnis yang manipulatif.**
 
-Setelah anda menermukan alasan untuk bisnis, anda akan memerlukan sumber daya dan sistem bisnis yang tepat untuk mengawali bisnis anda. Salah satu sistem bisnis yang keren adalah koperasi. Kalian bisa simak artikelnya [di sini](http://mestisukses.com/blog/2020/08/20/koperasi-pilihan-bisnis-yang-patut-diperhitungkan/).
+Setelah anda menermukan alasan untuk bisnis, anda akan memerlukan sumber daya dan sistem bisnis yang tepat untuk mengawali bisnis anda.

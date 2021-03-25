@@ -1,4 +1,4 @@
-Apakah kalian sudah menemukan visi kalian? Atau visi dari bisnis kalian? Jika kalian sudah menemukan (atau mungkin menentukan) [visi kalian](http://mestisukses.com/blog/2020/09/21/visi-yang-jelas-mengapa-bisnis-anda-berdiri/ "visi kalian"), langkah selanjutnya adalah kalian harus disiplin dalam meraih visi tersebut.
+Apakah kalian sudah menemukan visi kalian? Atau visi dari bisnis kalian? Jika kalian sudah menemukan (atau mungkin menentukan) visi kalian, langkah selanjutnya adalah kalian harus disiplin dalam meraih visi tersebut.
 
 **Apa itu disiplin?**
 
