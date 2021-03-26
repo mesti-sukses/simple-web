@@ -1,4 +1,4 @@
-Setelah beberapa hari saya mencoba untuk membaca dan membahas tentang buku teoritis dan [pengembangan diri](http://baca.mestisukses.com/2020/07/08/outliers/), mungkin saya juga harus meluangkan sedikit waktu untuk membicarakan masalah buku praktis. Dan kali ini yang akan saya bahas adalah tentang buku berjudul _Jual Saham Anda Lebih Mahal_ karya _Santo Vibby_
+Setelah beberapa hari saya mencoba untuk membaca dan membahas tentang buku teoritis dan pengembangan diri, mungkin saya juga harus meluangkan sedikit waktu untuk membicarakan masalah buku praktis. Dan kali ini yang akan saya bahas adalah tentang buku berjudul _Jual Saham Anda Lebih Mahal_ karya _Santo Vibby_
 
 ![jual saham anda lebih mahal](https://i.ibb.co/3hcJ09r/49163-f.jpg)
 

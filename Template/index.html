@@ -48,10 +48,11 @@
 
             <main class="page">
                 <div class="row">
+                    <h1 style="text-align: center;">Artikel dan Ide yang Bikin Kalian Mesti Sukses</h1>
                     <div class="col-xl-8 col-lg-9">
                         <repeat group="{{ @labels }}" key="{{ @number }}" value="{{ @label }}">
                             <section class="archive">
-                                <h1 class="archive-title">{{ @label.nama }}</h1>
+                                <h2 class="archive-title">{{ @label.nama }}</h2>
                                 <p class="archive-description">
                                     <ul class="link-list">
                                         <repeat group="{{ @label.categories }}" key="{{ @idCat }}" value="{{ @category }}">
@@ -70,7 +71,7 @@
                                 <div class="data">
                                     <div class="content">
                                         <span class="card-author">Manajemen Waktu</span>
-                                        <h1 class="title">{{ @firstIdea.title }} <span>: {{ @firstIdea.modal_title }}</span></h1>
+                                        <h2 class="title">{{ @firstIdea.title }} <span>: {{ @firstIdea.modal_title }}</span></h2>
                                         <a href="#open-modal-1" id="read">Read</a>
                                         <div class="text">
                                             {{ @firstIdea.print | raw }}

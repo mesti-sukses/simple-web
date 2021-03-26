@@ -93,8 +93,7 @@ Meskipun saya tidak merasakan betapa lamanya waktu lima jam itu, tetapi
 yang saya rasakan adalah betapa bangkrutnya saya saat melihat harga dari
 billing saya
 
-Game and Flow
-=============
+# Game and Flow
 
 Kalian semua pernah gak sih merasakan hal yang semacam itu? **Waktu yang
 tiba-tiba melaju dengan cepat sehingga seolah semuanya terjadi dalam
@@ -139,7 +138,6 @@ Yap…. Termasuk kalian semua.
 Terus, kalo saya bisa masuk kedalam flow, gimana caranya?
 
 Tujuan dan Feedback
-===================
 
 Hal yang paling penting dari flow adalah sebuah tujuan dan feedback.
 
@@ -185,8 +183,7 @@ menjadi bosan dengan hal itu.
 
 Betul gak?
 
-Kesimpulan
-==========
+# Kesimpulan
 
 So, dari penjelasan dan contoh diatas kita bisa tahu bahwa untuk
 mencapai flow state, kita harus bisa menentukan apa tujuan kita dan

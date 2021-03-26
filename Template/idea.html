@@ -11,6 +11,7 @@
     <meta name="HandheldFriendly" content="True" />
     <meta property="fb:pages" content="104391331142078" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Ide keren yang bisa mengubah perspektif kalian dalam kehidupan kalian dan bisa menambah tingkat kesuksesan kalian juga. Chek it out.">
     <link rel="stylesheet" href="{{ @base }}assets/style.css">
     <link rel="stylesheet" href="{{ @base }}assets/idea.css">
     <link rel="icon" href="{{ @base }}assets/favicon.jpg" type="image/jpg" />
@@ -47,12 +48,13 @@
 
             <main class="page">
                 <div class="row">
+                    <h1 style="text-align: center;">Life-Changing Idea</h1>
                     <div class="example-1 card">
                         <div class="wrapper" id="{{ @firstIdea.icon }}">
                             <div class="data">
                                 <div class="content">
                                     <span class="card-author">Manajemen Waktu</span>
-                                    <h1 class="title">{{ @firstIdea.title }} <span>: {{ @firstIdea.modal_title }}</span></h1>
+                                    <h2 class="title">{{ @firstIdea.title }} <span>: {{ @firstIdea.modal_title }}</span></h2>
                                     <a href="#open-modal-1" id="read">Read</a>
                                     <div class="text">
                                         {{ @firstIdea.print | raw }}
@@ -70,7 +72,7 @@
                             <div class="data">
                                 <div class="content">
                                     <span class="card-author">Manajemen Waktu</span>
-                                    <h1 class="title">{{ @secondIdea.title }} <span>: {{ @secondIdea.modal_title }}</span></h1>
+                                    <h2 class="title">{{ @secondIdea.title }} <span>: {{ @secondIdea.modal_title }}</span></h2>
                                     <a href="#open-modal-2" id="read">Read</a>
                                     <div class="text">
                                         {{ @secondIdea.print | raw }}
@@ -98,7 +100,7 @@
         <div id="open-modal-1" class="modal-window">
             <div>
                 <a href="#" title="Close" class="modal-close">Close</a>
-                <h1>{{ @firstIdea.modal_title }}</h1>
+                <h2>{{ @firstIdea.modal_title }}</h2>
                 <div>
                     {{ @firstIdea.print | raw }}
                     {{ @firstIdea.detail_print | raw }}
@@ -109,7 +111,7 @@
         <div id="open-modal-2" class="modal-window">
             <div>
                 <a href="#" title="Close" class="modal-close">Close</a>
-                <h1>{{ @secondIdea.modal_title }}</h1>
+                <h2>{{ @secondIdea.modal_title }}</h2>
                 <div>
                     {{ @secondIdea.print | raw }}
                     {{ @secondIdea.detail_print | raw }}

@@ -90,9 +90,9 @@ Dan sekali lagi, Islam mengajarkan kita tentang humanity yang berada di atas aga
 
 Mungkin itu lah yang ingin disampaikan oleh Dr. Nadhir kepada kita sehingga beliau menulis sebuah buku yang berisi tentang tafsir Qur’an yang berjudul *Tafsir Quran di Medsos* ini.
 
-# Review
+## Review
 
-## Struktur Penulisan
+### Struktur Penulisan
 
 Buku ini terdiri dari 3 bagian yang setiap bagiannya terdiri dari beberapa bab pendek yang membahas berbagai masalah yang berbeda. Mungkin buku ini cukup simpel sehingga pembaca mungkin bisa membaca bab-bab pendek yang ada di buku ini tanpa harus meluangkan waktunya karena cukup mudah dicerna.
 
@@ -110,7 +110,7 @@ Bagaimana kami bisa mengambil inti dari buku anda, jika anda tidak menuliskannya
 
 Mewakili semua pembaca buku anda, saya tidak suka dibiarkan tersesat mencari apa inti dari sebuah part dan terus dihantui pertanyaan *kenapa bab ini dimasukkan dalam part ini?*
 
-## Bahasa
+### Bahasa
 
 Bagi kalian yang sudah terbiasa untuk membaca buku, kalian pasti tahu mana buku yang dikarang oleh orang Indonesia asli.... Ya seperti buku ini.
 
@@ -120,7 +120,7 @@ Seluruh kalimatnya bisa dipahami dengan sangat padu sekali. Segala nada satir, c
 
 Bahasa yang penulis gunakan sangat menyatu dengan budaya, dan bisa membuat perasaan kita menjadi lebih mudah untuk tergerak meskipun penulis tidak mengatakan nasehatnya secara langsung.
 
-# Kesimpulan
+## Kesimpulan
 
 So, beberapa hal yang bisa kita simpulkan dari buku *Tafsir Quran di Medsos* ini adalah:
 
