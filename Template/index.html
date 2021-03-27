@@ -9,6 +9,7 @@
     <title>Mesti Sukses | Semua Orang Berhak Sukses</title>
 
     <meta name="HandheldFriendly" content="True" />
+    <meta name="canonical" content="{{ @base }}">
     <meta property="fb:pages" content="104391331142078" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Semua orang berhak untuk sukses. Web ini ditujukan bagi kalian yang mau belajar bagaimana cara dan tips untuk sukses. Apakah anda adalah orangnya? Check it out.">
@@ -99,11 +100,11 @@
         <div id="open-modal-1" class="modal-window">
             <div>
                 <a href="#" title="Close" class="modal-close">Close</a>
-                <h1>{{ @firstIdea.modal_title }}</h1>
-                <div>
-                    {{ @firstIdea.print | raw }}
-                    {{ @firstIdea.detail_print | raw }}
-                </div>
+                <h2>{{ @firstIdea.modal_title }}</h>
+                    <div>
+                        {{ @firstIdea.print | raw }}
+                        {{ @firstIdea.detail_print | raw }}
+                    </div>
             </div>
         </div>
 

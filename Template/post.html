@@ -9,6 +9,7 @@
     <title>{{ @post.title }} | Mesti Sukses</title>
 
     <meta name="description" content="{{ @post.description }}">
+    <meta name="canonical" content="{{ @base }}post/{{ @post.file_name }}">
     <meta name="HandheldFriendly" content="True" />
     <meta property="fb:pages" content="104391331142078" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -28,12 +29,20 @@
         gtag('config', 'G-J7C78LSP6H');
     </script>
 
+
 </head>
 
 <body class="body post-template tag-lifestyle tag-business tag-longform">
+    <div id="structured-data" style="display: none;">
+        <div id="description">
+            {{ @post.description }}
+        </div>
+        <div id="title">
+            {{ @post.title }}
+        </div>
+    </div>
 
     <div class="container">
-
 
         <header class="header ">
 
@@ -47,10 +56,9 @@
 
         <main class="page">
 
-            <article class="post ">
+            <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
 
                 <div class="wrapper">
-
 
                     <section class="post-header">
                         <div class="post-header-category"><a href="#">Bisnis</a></div>
@@ -59,7 +67,7 @@
 
 
                     <div class="post-main">
-                        <div class="post-contents">
+                        <div class="post-contents" itemprop="articleBody">
                             {{ @content | raw }}
                         </div>
                     </div>

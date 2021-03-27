@@ -16,9 +16,9 @@ So, itulah first impression saya ketika saya membaca buku ini untuk pertama kali
 
 *Mahal tapi tidak sebanding dengan isinya*
 
-# Insight
+## Insight
 
-## Humanity above religion
+### Humanity above religion
 
 Jika saya ingin merangkum buku ini dalam satu kalimat, maka saya akan memilih menggunakan kalimat ini untuk menggambarkan buku yang tidak terlalu tebal ini.
 
@@ -32,7 +32,7 @@ Bukan berarti saya menjadi orang yang atheis, atau materialis yang semua hal diu
 
 Meskipun saya sendiri juga terkadang bingung apa yang disebut dengan humanis ini
 
-## Tidak ada paksaan dalam beragama
+### Tidak ada paksaan dalam beragama
 
 Oke, mungkin bisa sedikit saya definisikan sebuah kata yang disebut dengan humanis ini.
 
@@ -68,7 +68,7 @@ Agama juga merupakan sebuah kebebasan bagi manusia untuk menganutnya (atau untuk
 
 Setiap orang bebas menganut agama keyakinan mereka masing-masing, tanpa ada paksaan dari siapa pun. Jika agama kalian memaksa manusia lain untuk memeluk agama kalian, mungkin saja kalian salah agama.
 
-## Berlaku adil terhadap sesama manusia
+### Berlaku adil terhadap sesama manusia
 
 Mungkin, saya bisa sedikit mengerti dengan beberapa etika dalam beberapa profesi tentang kerabat. Mungkin seorang dokter tidak diperbolehkan untuk mendiagnosis anggota keluarganya, atau seorang hakim dan jaksa tidak boleh membela keluarganya.
 
