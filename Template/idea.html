@@ -40,7 +40,7 @@
 
             <div class="blog-title">
                 <a href="{{ @base }}" class="blog-title-logo">
-                    <img src="{{ @base }}assets/Mesti Sukses.jpg" alt="Mesti Sukses" />
+                    <img src="{{ @base }}assets/Mesti-Sukses.jpg" alt="Mesti Sukses" />
                 </a>
             </div>
         </header>
@@ -59,7 +59,6 @@
                                     <a href="#open-modal-1" id="read">Read</a>
                                     <div class="text">
                                         {{ @firstIdea.print | raw }}
-
                                         <a href="#open-modal-1" style="float:left">Read More</a>
                                         <a href="{{ @base }}idea" style="float:right">More Idea</a>
                                     </div>
@@ -98,11 +97,14 @@
 
         </footer>
 
-        <div id="open-modal-1" class="modal-window">
+        <div id="open-modal-1" class="modal-window" itemscope itemtype="Article">
             <div>
                 <a href="#" title="Close" class="modal-close">Close</a>
-                <h2>{{ @firstIdea.modal_title }}</h2>
-                <div>
+                <div style="display: none;">
+                    <img src="{{ @base }}assets/Mesti-Sukses.jpg'" alt="" itemprop="image">
+                </div>
+                <h2 itemprop="headLine">{{ @firstIdea.modal_title }}</h2>
+                <div itemprop="articleBody">
                     {{ @firstIdea.print | raw }}
                     {{ @firstIdea.detail_print | raw }}
                 </div>

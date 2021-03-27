@@ -39,7 +39,7 @@
 
             <div class="blog-title">
                 <a href="{{ @base }}" class="blog-title-logo">
-                    <img src="{{ @base }}assets/Mesti Sukses.jpg" alt="Mesti Sukses" />
+                    <img src="{{ @base }}assets/Mesti-Sukses.jpg" alt="Mesti Sukses" />
                 </a>
             </div>
         </header>
@@ -49,7 +49,7 @@
 
             <main class="page">
 
-                <section class="post-list">
+                <section class="post-list" itemscope itemtype="Article">
                     <repeat group="{{ @categories }}" key="{{ @number }}" value="{{ @category }}">
                         <article class="post-item">
                             <div class="post-item-upper">
@@ -57,14 +57,17 @@
                                     <a href="#">{{ @category['nama'] }}</a>
                                 </div>
                             </div>
+                            <div style="display: none;">
+                                <img src="{{ @base }}assets/Mesti-Sukses.jpg'" alt="" itemprop="image">
+                            </div>
                             <h1 class="post-item-title">
-                                <a href="#">{{ @category['judul'] }}</a>
+                                <a href="#" itemprop="headLine">{{ @category['judul'] }}</a>
                             </h1>
                             <p class="post-item-excerpt">
-                                <span>{{ @category['deskripsi'] }}</span>
+                                <span itemprop="articleBody">{{ @category['deskripsi'] }}</span>
                                 <ul class="link-list" style="margin-top: 1.5rem;">
                                     <repeat group="{{ @category['posts'] }}" key="{{ @number }}" value="{{ @post }}">
-                                        <li><a href="{{ @base }}post/{{ @post['file_name'] }}">{{ @post['title'] }}</a></li>
+                                        <li><a href="{{ @base }}post/{{ @post['file_name'] }}" itemprop="articleBody">{{ @post['title'] }}</a></li>
                                     </repeat>
                                 </ul>
                             </p>

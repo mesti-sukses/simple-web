@@ -40,7 +40,7 @@
         <header class="header ">
             <div class="blog-title">
                 <a href="{{ @base }}" class="blog-title-logo">
-                    <img src="{{ @base }}assets/Mesti Sukses.jpg" alt="Mesti Sukses" />
+                    <img src="{{ @base }}assets/Mesti-Sukses.jpg" alt="Mesti Sukses" />
                 </a>
             </div>
         </header>
@@ -50,15 +50,18 @@
             <main class="page">
                 <div class="row">
                     <h1 style="text-align: center;">Artikel dan Ide yang Bikin Kalian Mesti Sukses</h1>
-                    <div class="col-xl-8 col-lg-9">
+                    <div class="col-xl-8 col-lg-9" itemscope itemtype="Article">
                         <repeat group="{{ @labels }}" key="{{ @number }}" value="{{ @label }}">
                             <section class="archive">
-                                <h2 class="archive-title">{{ @label.nama }}</h2>
+                                <h2 class="archive-title" itemprop="headLine">{{ @label.nama }}</h2>
+                                <div style="display: none;">
+                                    <img src="{{ @base }}assets/Mesti-Sukses.jpg'" alt="" itemprop="image">
+                                </div>
                                 <p class="archive-description">
                                     <ul class="link-list">
                                         <repeat group="{{ @label.categories }}" key="{{ @idCat }}" value="{{ @category }}">
                                             <li>
-                                                <a href="{{ @base }}category/{{ @category.id_category }}">{{ @category.judul }}</a>
+                                                <a href="{{ @base }}category/{{ @category.id_category }}" itemprop="articleBody">{{ @category.judul }}</a>
                                             </li>
                                         </repeat>
                                     </ul>

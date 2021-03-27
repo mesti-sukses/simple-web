@@ -48,7 +48,7 @@
 
             <div class="blog-title">
                 <a href="{{ @base }}" class="blog-title-logo">
-                    <img src="{{ @base }}assets/Mesti Sukses.jpg" alt="Mesti Sukses" />
+                    <img src="{{ @base }}assets/Mesti-Sukses.jpg" alt="Mesti Sukses" />
                 </a>
             </div>
 
@@ -60,9 +60,13 @@
 
                 <div class="wrapper">
 
+                    <div style="display: none;">
+                        <img src="{{ ( @post.image != NULL ) ? @post.image : @base.'assets/Mesti-Sukses.jpg' }}" alt="" itemprop="image">
+                    </div>
+
                     <section class="post-header">
                         <div class="post-header-category"><a href="#">Bisnis</a></div>
-                        <h1 class="post-header-title">{{ @post.title }}</h1>
+                        <h1 class="post-header-title" itemprop="headLine">{{ @post.title }}</h1>
                     </section>
 
 
