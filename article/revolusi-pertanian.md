@@ -12,7 +12,7 @@ Secara matematis (dan biologis), spesies manusia yang sudah cukup maju dalam ber
 
 Perkembangan yang sudah mulai besar ini mendorong manusia untuk kembali melakukan suatu gebrakan baru mengikuti revolusi kognitif, kita bisa menyebutnya **revolusi pertanian**
 
-# Manusia Banyak = Makanan yang Banyak
+## Manusia Banyak = Makanan yang Banyak
 
 **Bagaimanapun manusia bekerja sama untuk memperoleh makanan, mereka tidak  bisa menentang hukum alam tentang keseimbangan ekosistem**.
 
@@ -38,7 +38,7 @@ Manusia menemukan bahwa beberapa rumput tertentu (dalam hal ini pertama kali yan
 
 Era pertanian pun dimulai.
 
-# Hanya Masalah Makanan?
+## Hanya Masalah Makanan?
 
 *Apakah kalian pikir bahwa revolusi pertanian ini hanya masalah makanan?* Tentu saja tidak. Hal ini berpengaruh cukup besar dengan kemajuan manusia hingga saat ini.
 
@@ -66,7 +66,7 @@ Tidak hanya soal makanan, revolusi pertanian yang sejatinya merupakan gebrakan b
 
 Hak ini membuat manusia begitu mendambakan kontrol pada sesuatu dan tidak suka sesuatu yang berantakan dan diluar prediksi.
 
-# Kehidupan Sosial yang Terstruktur
+## Kehidupan Sosial yang Terstruktur
 
 Revolusi kognitif membuat manusia bisa berkomunikasi dengan baik sedangkan revolusi pertanian menyadarkan manusia bahwa mereka bisa mengendalikan kebutuhan mereka jika mereka mau.
 
@@ -90,7 +90,7 @@ Kemampuan komunikasi dan keinginan untuk membuat struktur ini membuat manusia mu
 
 *8Revolusi pertanian membuat manusia menjadi lebih banyak menghabiskan waktu dengan cara berkelompok**
 
-# Tantangan Baru
+## Tantangan Baru
 
 Masalah pengendalian sosial sudah bisa diatasi dengan kemampuan komunikasi manusia untuk saling berkomitmen, tetapi tentu saja alam memiliki rencana lain untuk menghentikan strategi manusia yang sepertinya sedang mencoba untuk mengakali sistem milik alam ini.
 
@@ -114,7 +114,7 @@ Konflik antar pejantan, pengkhianatan, perpecahan, kembali mengancam kelompok ma
 
 Tentu saja dengan **kepercayaan**
 
-# Kepercayaan dan Kisah Fiktif
+## Kepercayaan dan Kisah Fiktif
 
 Akar permasalahan dari berbagai macam konflik sosial yang mengancam persatuan ini hanyalah satu yaitu **kepercayaan**
 
@@ -146,7 +146,7 @@ Para karyawan bisa bekerja sama dengan ribuan karyawan lain untuk memajukan sebu
 
 So, inilah hal yang mempersatukan manusia yaitu kepercayaan.
 
-# So, Kenapa Saya Harus Tahu Hal Ini?
+## So, Kenapa Saya Harus Tahu Hal Ini?
 
 Dalam dua artikel terakhir, saya mencoba untuk membuat sebuah spekulasi tentang bagaimana perkembangan manusia menjadi penguasa dunia makhluk hidup dalam kurun waktu yang begitu singkat (kurang dari 100 ribu tahun). Dinosaurus menguasai dunia selama sekitar 65 juta tahun, tetapi kita tidak melihat berbagai macam teknologi dan pemahaman seperti yang sudah manusia kembangkan sampai saat ini.
 

@@ -4,7 +4,7 @@ Sekarang apakah kalian siap untuk memasuki tahap zone seperti Kagami maupun Kise
 
 Oke, akan saya bagikan sedikit tipsnya. Tips ini saya ambil dari sebuah buku yang berjudul Flow…. Blablablabla… Saya gak hafal apa terusannya.
 
-# Tujuan
+## Tujuan
 
 Pertama kali yang harus kalian perhatikan sebelum memasuki flow adalah, tujuan dari aktivitas. Ini sangat penting sekali, karena **aktivitas yang tanpa tujuan yang kuat hanya akan menambah sebuah kebosanan**.
 
@@ -20,7 +20,7 @@ Jika kalian semua sudah bisa mengenali tujuan kalian melakukan aktivitas sekecil
 
 Contohnya, kalian bisa membaca buku sambil…. Mencoba untuk menceritakannya kembali, atau mungkin mempraktekkan sebuah simulasi untuk melipat baju secara cepat.
 
-# Feedback
+## Feedback
 
 Selain aktivitas harus mempunyai tujuan, aktivitas juga harus memiliki feedback yang cepat.
 
@@ -50,7 +50,7 @@ So, apa yang bisa kalian bikin feedback untuk belajar?
 
 Misalkan kalian harus bisa mengerjakan soal dengan benar baru bisa membuka kunci hape dll.
 
-# Tantangan
+## Tantangan
 
 Dua hal diatas merupakan hal yang paling penting dalam menuju ke tahap flow, tetapi pastinya akan ada banyak hal yang harus dilewati sebelum memasuki tahap itu.
 
@@ -76,7 +76,7 @@ Sama seperti Aomine yang baru bisa masuk zone saat berhadapan dengan Kagami.
 
 Intinya, saat ingin memasuki flow, maka sesuaikan tantangan tersebut dengan skill kalian.
 
-# Fokus
+## Fokus
 
 Selain beberapa pernyataan diatas, kita juga perlu focus untuk bisa memasuki state flow.
 
@@ -86,7 +86,7 @@ Ada sebuah penelitian yang mengatakan bahwa manusia perlu waktu sekitar 17 menit
 
 Maka dari itu, jika kalian ingin segera menikmati apa yang disebut dengan flow, maka matikan notifikasi sementara, buat sebuah timeline dan kemudian fokuslah pada apa yang akan kalian kerjakan kali ini.
 
-# Kesimpulan
+## Kesimpulan
 
 Flow adalah state psikologis yang bisa membuat kalian lebih produktif dan senang dalam waktu bersamaan.
 

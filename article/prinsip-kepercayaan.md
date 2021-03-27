@@ -4,7 +4,7 @@ Seorang teman saya yang membaca dua artikel sebelumnya memberikan sebuah feedbac
 
 Saya akan jelaskan sedikit tentang masalah kepercayaan yang membangun peradaban ini melalui sebuah contoh sederhana yaitu *uang*.
 
-# Uang, Kepercayaan Semu Penggerak Ekonomi
+## Uang, Kepercayaan Semu Penggerak Ekonomi
 
 Kita semua (setidaknya yang membaca artikel ini) mengenal konsep uang dan mata uang. Dalam ilmu ekonomi, uang merupakan sebuah alat tukar yang sah dan bisa ditukar dengan berbagai macam kebutuhan yang kita inginkan.
 
@@ -26,7 +26,7 @@ Mungkin saja Newton tidak memiliki keterampilan bertahan hidup yang tinggi, teta
 
 Apa yang membuat hal tersebut terjadi? Sekali lagi, kepercayaan.
 
-# Kontrol Sosial
+## Kontrol Sosial
 
 Selain sebagai pengembang peradaban, kepercayaan juga bisa difungsikan sebagai kontrol sosial.
 
@@ -44,7 +44,7 @@ Kepercayaan pada kode etik dan moral ini mengurangi angka kematian manusia karen
 
 Sekali lagi, selain untuk penggerak ekonomi, kepercayaan adalah suatu kontrol perbuatan sosial yang benar-benar ampuh untuk bertahan hidup dan berkembang.
 
-# Percaya
+## Percaya
 
 Sudah dua artikel, empat ribu kata saya menjelaskan tentang revolusi manusia dalam bertahan hidup dengan menggunakan kepercayaan, baik yang kita sadari atau bukan.
 
@@ -58,7 +58,7 @@ So, jika kepercayaan kita yang tidak kita sadari itu bisa menjadikan seluruh uma
 
 Ada beberapa alasan untuk itu, tetapi kita akan mulai dengan masalah yang disebut dengan *Prisoner's Dilemma*.
 
-# Dilema para Tahanan
+## Dilema para Tahanan
 
 Bayangkan kalian bekerja sama dengan seseorang untuk melakukan sebuah kejahatan, tetapi apes sekali, kalian berdua tertangkap oleh polisi.
 
@@ -79,7 +79,7 @@ Tetapi, kebanyakan dari kita jarang sekali untuk memilih **tidak** bersaksi atas
 
 Inilah dilema para tahanan yang merupakan salah satu masalah kepercayaan.
 
-# Pengkhianatan Lebih Manis
+## Pengkhianatan Lebih Manis
 
 Coba kalian tilik dan lihat lagi apa yang ditawarkan dari pilihan-pilihan diatas.
 
@@ -110,7 +110,7 @@ Tetapi nyatanya, tidak semua orang yang kita temui adalah pengkhianat. Tidak sem
 
 Kemana para pengkhianat yang sudah memakan buah yang manis ini?
 
-# Dunia Tak Selebar Daun Kelor
+## Dunia Tak Selebar Daun Kelor
 
 Angka harapan hidup manusia secara rata-rata meningkat selama beberapa ribu tahun terakhir karena berbagai macam revolusi yang mendukung keterampilan bertahan hidup mereka. Hal ini membuat manusia memiliki waktu yang cukup panjang untuk belajar dari pengalamannya.
 
@@ -142,7 +142,7 @@ Dan... seperti dugaan saya.
 
 Siapa yang mendapatkan poin paling banyak dalam simulasi kepercayaan ini?
 
-# Strategi Kepercayaan yang Realistis
+## Strategi Kepercayaan yang Realistis
 
 Sabar, saya akan menjelaskan sedikit lagi tentang simulasi ini.
 
@@ -191,7 +191,7 @@ So, secara universal karena poin milik TFT ini bertambah ketika menghadapi TFT d
 
 Hal inilah strategi paling realistis dalam mempercayai seseorang.
 
-# So, hikmahnya?
+## So, hikmahnya?
 
 Hikmahnya adalah, untuk tetap bisa bertahan hidup maka tirulah prinsip kepercayaan pada TFT.
 

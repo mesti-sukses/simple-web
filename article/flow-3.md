@@ -12,7 +12,7 @@ Tetapi, dalam keseruan itu, kira-kira apa sih manfaat lain dari flow state ini?
 
 Oke, akan saya bahas sedikit saja.
 
-# Flow itu Seru
+## Flow itu Seru
 
 Flow akan memberikan sebuah pengalaman seru pada kalian.
 
@@ -36,7 +36,7 @@ Tentu saja, kalian belajar gimana caranya dapet XP, dapet gold yang banyak. Gima
 
 Bukankah flow itu seru dan bisa membuat kita belajar banyak hal?
 
-# Flow perlu tujuan
+## Flow perlu tujuan
 
 Apakah kalian pernah maen game tanpa tujuan?
 
@@ -52,7 +52,7 @@ Tidak ada orang yang memasuki state flow tanpa sebuah tujuan.
 
 Semakin banyak anda memasuki state flow, semakin anda terlatih untuk membuat tujuan hidup kalian.
 
-# Flow membantu kalian focus
+## Flow membantu kalian focus
 
 Mungkin kalian pernah merasa kesal dengan para gamer yang biasanya selalu mengabaikan kalian saat mabar, saat sedang war, maupun saat melaksanakan misi sulit.
 
@@ -64,7 +64,7 @@ Hal ini dikarenakan untuk mencapai flow kalian harus focus pada satu tugas, tida
 
 Semakin kalian mengalami flow tersebut, semakin mudah bagi kalian untuk focus pada tujuan maupun pengembangan diri kalian.
 
-# Flow membuat kalian komitmen
+## Flow membuat kalian komitmen
 
 Pernah tidak kalian melihat orang begadang sampai larut malam hanya untuk menamatkan sebuah game?
 
@@ -80,7 +80,7 @@ Hal ini tentunya membuat kalian bisa komitmen pada tujuan kalian sehingga memban
 
 Semakin banyak kalian mengalami state flow, kalian akan semakin mengasah komitmen kalian dan semakin besar kemungkinan kalian untuk mencapai tujuan kalian.
 
-# Flow membuat energy kalian terasa bertambah
+## Flow membuat energy kalian terasa bertambah
 
 Kalian pernah liat gamer yang males saat memainkan sebuah game?
 
@@ -98,7 +98,7 @@ Tidak, tidak, bukan kayak gitu. Flow state membuat pikiran kalian merasakan sedi
 
 Meskipun otak kalian kelelahan, dia akan tetap senang karena ada suntikan hormone lain yang membuat kalian masih terasa berenergi.
 
-# Kesimpulan
+## Kesimpulan
 
 Oke, dari beberapa artikel flow yang sudah saya tulis mulai dari kemaren, pengalam flow ini terasa sangat menggairahkan dan memiliki fungsi dan manfaat yang cukup bagus.
 
