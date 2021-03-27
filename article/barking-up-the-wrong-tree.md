@@ -14,9 +14,9 @@ Buku ini membantu kalian merangkum beberapa hal klasik yang banyak dibahas sebag
 
 Dikemas dengan bahasa yang cukup mudah dimengerti, buku ini membahas tentang 6 hal yang dipercayai sebagai indikator kesuksesan dari berbagai macam buku kesuksesan yang dahulu.
 
-# Review  Barking Up The Wrong Tree
+## Review  Barking Up The Wrong Tree
 
-## Bahasa
+### Bahasa
 
 Secara bahasa, bisa dibilang bahasa yang digunakan oleh Eric Barker dalam bukunya ini cukup meudah dimengerti dan begitu familiar dengan bahasa kita sehari-hari (sebenarnya bukan bahasa kita sih, tepatnya bahasa Inggris sehari-hari)
 
@@ -24,7 +24,7 @@ Eric juga beberapa kali menyisipkan kelakarnya dalam buku ini untuk sedikit menc
 
 Tetapi, overall bahasa yang digunakan dalam buku ini cukup bagus dan mudah dipahami meskipun dalam konteks yang cukup berat sekalipun.
 
-## Struktur Pembahasan
+### Struktur Pembahasan
 
 Struktur pembahasan yang dibawakan oleh Eric bisa dibilang teratur untuk pembagian pe chapter nya, hanya saja ketika kalian membaca chapter tersebut, kalian mungkin akan sedikit kebingungan.
 
@@ -38,9 +38,9 @@ Setiap chapter memiliki pembahasan sendiri-sendiri dan Eric cukup pandai dalam m
 
 Kalian harus teliti untuk menyimpulkan sendiri apa yang harus kalian ambil dari setiap chapter buku ini.
 
-# Actionable Idea
+## Actionable Idea
 
-## Kepercayaan dan Maaf
+### Kepercayaan dan Maaf
 
 Ini adalah insight yang sangat bagus dari chapter 2 buku ini, tentang *apakah orang baik adalah orang yang mencapai finish paling akhir?*
 
@@ -52,7 +52,7 @@ Secara singkat, peradaban manusia sudah berkembang sedemikian rupa sehingga menj
 
 **So, kenapa kita tidak percaya saja pada manusia yang lain?**
 
-## Menjadi Teguh dan Menyerah Secara Strategis
+### Menjadi Teguh dan Menyerah Secara Strategis
 
 Beberapa bulan yang lalu, sebelum saya membaca buku ini, saya mengikuti sebuah buku yang membahas tentang Grit karya *Angela Duckworth.* Itu sebuah buku yang begitu menampar karena saya sendiri merasa bahwa saya kurang punya keteguhan dalam meraih mimpi saya, mudah menyerah dan suka berganti topik.
 
@@ -69,7 +69,7 @@ Tidak semua orang punya waktu untuk mengejar semua angan-angannya, karena angan-
 
 So, menjadi teguh memang merupakan kunci kesuksesan, tetapi kalian juga harus sadar bahwa dengan menjadi teguh kalian membuang banyak kemungkinan lainnya. **Make sure that you don't regret it.**
 
-## Keseimbangan Kerja dan Hidup
+### Keseimbangan Kerja dan Hidup
 
 Apakah orang yang sukses adalah orang yang selalu sibuk dalam segala hal sehingga mengabaikan hidupnya?
 
@@ -92,7 +92,7 @@ Secara singkat, misi kita agar hidup kita lebih bermakna adalah:
 
 Empat hal tersebut adalah rumusan dan Eric Barker yang harus kalian isi semua sehingga hidup kalian menjadi sedikit lebih bermakna.
 
-# Kesimpulan
+## Kesimpulan
 
 Singkatnya, buku ini sangat bagus.
 

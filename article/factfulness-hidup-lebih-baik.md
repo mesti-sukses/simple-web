@@ -15,9 +15,9 @@ Tetapi, setelah membaca buku ini, **opini saya berubah.** Dan saya mempunyai har
 
 ![Factfulness](https://i.ibb.co/8gPbGf8/image.png)
 
-# Insight
+## Insight
 
-## Data yang Menakutkan
+### Data yang Menakutkan
 
 > Kita terlalu terbiasa untuk membuat data lebih menakuti kita daripada membuat kita bahagia
 
@@ -33,7 +33,7 @@ Strategi *better safe than sorry* mungkin sudah bergeser dengan semakin bergeser
 
 Tapi masih banyak orang yang melakukan strategi tersebut
 
-## Hukum Sebab Akibat
+### Hukum Sebab Akibat
 
 > Sebab dan akibat sangat jarang terjadi dengan bentuk yang sangat sederhana
 
@@ -51,7 +51,7 @@ Hal ini juga menyeret kita pada sebuah kebiasaan lama yaitu **blaming.** Kita ce
 
 Entah itu sistem pendidikan, pemerintah, guru yang galak bahkan Tuhan.
 
-## Pesan untuk Seluruh Umat Manusia
+### Pesan untuk Seluruh Umat Manusia
 
 > Bukan sesuatu yang tidak kalian ketahui yang akan membuat kalian kesulitan, tetapi sesuatu yang kalian ketahui
 
@@ -75,9 +75,9 @@ Demikian pula, sementara orang takut mati akibat serangan hiu, serigala, dan ula
 
 Namun, nyamuk rendahan membunuh sekitar 725.000 orang per tahun dan melumpuhkan 200 juta lainnya melalui penularan penyakit.
 
-# Review
+## Review
 
-## Struktur Pembahasan
+### Struktur Pembahasan
 
 Oke, setelah insight kali ini saya akan membahas tentang review dari buku ini.
 
@@ -91,7 +91,7 @@ Dengan menjabarkan sikap-sikap yang perlu dipertanyakan ini, penulis juga menyed
 
 Secara struktur pembahasan, menurut saya mudah diikuti alur pemikirannya sehingga kita bisa lebih mudah mengikuti alur dari penulis.
 
-## Bahasa
+### Bahasa
 
 Bahasa yang digunakan cukup simpel juga, dengan berbagai macam data yang akurat, kita diajak untuk menyelami data tersebut dengan cara yang.... elegan menurut saya.
 
@@ -99,7 +99,7 @@ Kalian tidak usah dipusingkan dengan berbagai macam teknik analisis data seperti
 
 Cukup mudah dipahami lah intinya. 
 
-# Kesimpulan
+## Kesimpulan
 
 Buku ini mengajarkan kita cukup banyak hal, diantaranya:
 

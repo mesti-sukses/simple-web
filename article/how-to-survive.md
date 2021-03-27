@@ -20,7 +20,7 @@ Apalagi jika memang hal tersebut bisa mengembangkan peradaban manusia menjadi le
 
 Kali ini saya akan mencoba untuk menjelaskan sedikit tentang kekuatan yang dimiliki oleh manusia untuk menaklukan dunia.
 
-# Makhluk Sosial
+## Makhluk Sosial
 
 Kalian semua pasti pernah mendengar yang namanya *zoon politicon?* Saya sudah lupa juga siapa yang mencetuskan pertama kali istilah ini tetapi ini istilah populer yang seringkali digunakan oleh orang di sosial media (dan juga beberapa orang yang mencoba memberikan semangat pada kaum marginal)
 
@@ -44,11 +44,11 @@ Tidak ada makhluk yang merasa terancam dengan kera berkaki dua yang berusaha men
 
 Tetapi, sesuatu berubah sekitar 40 ribu tahun yang lalu....
 
-# Revolusi Kognitif
+## Revolusi Kognitif
 
 Yuval Noah Harari dalam buku best seller nya yang berjudul *Sapiens* menyebutkan tentang revolusi yang mengubah kehidupan manusia secara drastis. Ada tiga revolusi yang dijelakan oleh Yuval, tetapi untuk sekarang yang akan saya jelaskan adalah tentang revolusi yang pertama yaitu **revolusi kognitif**.
 
-## Semuanya Dimulai dari Kebiasaan
+### Semuanya Dimulai dari Kebiasaan
 
 Setelah ribuan tahun hidup dengan mengumpulkan buah-buahan liar, manusia mencoba untuk mengembangkan telapak tangan yang bisa digunakan untuk menggenggam. Hal ini membuat kecepatan mengumpulkan makanan naik secara drastis sehingga membuat manusia yang terampil menggunakan tangannya bisa bertahan hidup cukup lama.
 
@@ -64,7 +64,7 @@ Bagaimana dengan manusia? Manusia perlu waktu minimal dua tahun sebelm bisa berj
 
 Inilah yang menjadi latar belakang dari kelompok manusia. Untuk melindungi keturunan mereka, manusia berkelompok dan saling bekerja sama untuk bisa melindungi anak-anak mereka sekaligus untuk membesarkan dan mendidik mereka.
 
-## Kerjasama dan Komunikasi
+### Kerjasama dan Komunikasi
 
 Berbeda dengan aktivitas bertahan hidup yang lain seperti berburu, menghindari musuh dan makan; mendidik adalah suatu hal yang jauh berbeda daripada aktivitas tersebut.
 
@@ -82,7 +82,7 @@ Dengan berkembangnya bahasa dan isyarat yang bisa digunakan oleh manusia, secara
 
 **This is the power of cognitive revolution**
 
-## Perkembangan Selanjutnya....
+### Perkembangan Selanjutnya....
 
 Informasi makhluk hidup biasanya diturunkan dalam bentuk gen sehingga memerlukan waktu yang lama untuk spesies lain bisa mengenal dan mempelajari informasi baru. Hal ini dikarenakan gen sangat sukar untuk berubah, sehingga informasi yang diturunkan itu sangat reliabel dan permanen.
 
@@ -94,7 +94,7 @@ Penyebaran informasi mulai meluas ketika manusia menemukan bahasa yang kompleks,
 
 Sistem informasi terpusat ini lah yang membuat manusia bisa memroses informasi lebih efisien dan menyimpannya tanpa bantuan dari gen lebih lanjut.
 
-# Zaman Berubah Semakin Gila
+## Zaman Berubah Semakin Gila
 
 Manusia sudah bisa mencapai banyak hal setelah terjadinya revolusi kognitif, dan sedikit demi sedikit membuat sebuah komunitas agar bisa menjadi lebih besar dan mengalahkan predator yang mengancam. Tetapi tentu saja, **Nature is suck,** alam punya sesuatu yang mengejutkan hampir setiap spesies yang berada di dalamnya, termasuk manusia.
 

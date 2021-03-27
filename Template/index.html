@@ -56,12 +56,12 @@
             <main class="page">
                 <div class="row">
                     <h1 style="text-align: center;">Artikel dan Ide yang Bikin Kalian Mesti Sukses</h1>
-                    <div class="col-xl-8 col-lg-9" itemscope itemtype="Article">
+                    <div class="col-xl-8 col-lg-9" itemscope itemtype="https://schema.org/Article">
                         <repeat group="{{ @labels }}" key="{{ @number }}" value="{{ @label }}">
                             <section class="archive">
                                 <h2 class="archive-title" itemprop="headLine">{{ @label.nama }}</h2>
                                 <div style="display: none;">
-                                    <img src="{{ @base }}assets/Mesti-Sukses.jpg'" alt="" itemprop="image">
+                                    <img src="{{ @base }}assets/Mesti-Sukses.jpg'" alt="Mesti Sukses" itemprop="image">
                                 </div>
                                 <p class="archive-description">
                                     <ul class="link-list">
@@ -102,18 +102,18 @@
         <footer class="footer">
 
             <section class="copyright">
-                <div class="copyright-disclaimer">Copyright &copy; <a href="{{ @base }}">Mesti Sukses</a> 2020 <span class="copyright-bullet">&bull;</span> All rights reserved.</div>
+                <h6 class="copyright-disclaimer">Copyright &copy; <a href="{{ @base }}">Mesti Sukses</a> 2020 <span class="copyright-bullet">&bull;</span> All rights reserved.</h6>
             </section>
 
         </footer>
         <div id="open-modal-1" class="modal-window">
             <div>
                 <a href="#" title="Close" class="modal-close">Close</a>
-                <h2>{{ @firstIdea.modal_title }}</h>
-                    <div>
-                        {{ @firstIdea.print | raw }}
-                        {{ @firstIdea.detail_print | raw }}
-                    </div>
+                <h2>{{ @firstIdea.modal_title }}</h2>
+                <div>
+                    {{ @firstIdea.print | raw }}
+                    {{ @firstIdea.detail_print | raw }}
+                </div>
             </div>
         </div>
 
