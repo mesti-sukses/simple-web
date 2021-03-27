@@ -8,6 +8,12 @@
 
     <title>{{ @post.title }} | Mesti Sukses</title>
 
+    <meta property="og:title" content="{{ @post.title }}" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="{{ @base }}post/{{ @post.file_name }}" />
+    <meta property="og:image" content="{{ ( @post.image != NULL ) ? @post.image : @base.'assets/Mesti-Sukses.jpg' }}" />
+    <meta property="og:description" content="{{ @post.description }}" />
+
     <meta name="description" content="{{ @post.description }}">
     <meta name="canonical" content="{{ @base }}post/{{ @post.file_name }}">
     <meta name="HandheldFriendly" content="True" />
