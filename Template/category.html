@@ -69,14 +69,14 @@
                             <h1 class="post-item-title">
                                 <a href="#" itemprop="headLine">{{ @category['judul'] }}</a>
                             </h1>
-                            <p class="post-item-excerpt">
+                            <div class="post-item-excerpt">
                                 <span itemprop="articleBody">{{ @category['deskripsi'] }}</span>
                                 <ul class="link-list" style="margin-top: 1.5rem;">
                                     <repeat group="{{ @category['posts'] }}" key="{{ @number }}" value="{{ @post }}">
                                         <li><a href="{{ @base }}post/{{ @post['file_name'] }}" itemprop="articleBody">{{ @post['title'] }}</a></li>
                                     </repeat>
                                 </ul>
-                            </p>
+                            </div>
                         </article>
                     </repeat>
                 </section>
