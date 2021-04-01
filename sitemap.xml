@@ -1,172 +1,179 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-  <loc>https://mestisukses.com/</loc>
-  <lastmod>2021-03-27T03:49:00+00:00</lastmod>
-  <priority>1.00</priority>
+	<loc>https://mestisukses.com/</loc>
+	<lastmod>2021-04-01T14:35:28+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://mestisukses.com/category/1</loc>
-  <lastmod>2021-03-27T03:49:00+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://mestisukses.com/category/1</loc>
+	<lastmod>2021-04-01T14:35:28+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://mestisukses.com/category/2</loc>
-  <lastmod>2021-03-27T03:49:00+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://mestisukses.com/category/2</loc>
+	<lastmod>2021-04-01T14:35:32+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://mestisukses.com/category/5</loc>
-  <lastmod>2021-03-27T03:49:00+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://mestisukses.com/category/5</loc>
+	<lastmod>2021-04-01T14:35:32+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://mestisukses.com/category/7</loc>
-  <lastmod>2021-03-27T03:49:00+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://mestisukses.com/category/7</loc>
+	<lastmod>2021-04-01T14:35:36+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://mestisukses.com/category/3</loc>
-  <lastmod>2021-03-27T03:49:00+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://mestisukses.com/category/3</loc>
+	<lastmod>2021-04-01T14:35:35+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://mestisukses.com/category/4</loc>
-  <lastmod>2021-03-27T03:49:00+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://mestisukses.com/category/4</loc>
+	<lastmod>2021-04-01T14:35:35+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://mestisukses.com/category/6</loc>
-  <lastmod>2021-03-27T03:49:00+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://mestisukses.com/category/6</loc>
+	<lastmod>2021-04-01T14:35:35+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://mestisukses.com/idea</loc>
-  <lastmod>2021-03-27T03:49:00+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://mestisukses.com/category/8</loc>
+	<lastmod>2021-04-01T14:35:38+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://mestisukses.com/post/golden-circle-lingkaran-pedoman-bisnis.md</loc>
-  <lastmod>2021-03-27T03:49:00+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://mestisukses.com/idea</loc>
+	<lastmod>2021-04-01T14:35:36+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://mestisukses.com/post/alasan-untuk-bisnis-start-with-why.md</loc>
-  <lastmod>2021-03-27T03:49:00+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://mestisukses.com/post/golden-circle-lingkaran-pedoman-bisnis.md</loc>
+	<lastmod>2021-04-01T14:35:36+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://mestisukses.com/post/kekuatan-identitas-siapa-sebenarnya-diri-anda.md</loc>
-  <lastmod>2021-03-27T03:49:00+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://mestisukses.com/post/alasan-untuk-bisnis-start-with-why.md</loc>
+	<lastmod>2021-04-01T14:35:37+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://mestisukses.com/post/visi-yang-jelas-mengapa-bisnis-anda-berdiri.md</loc>
-  <lastmod>2021-03-27T03:49:00+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://mestisukses.com/post/kekuatan-identitas-siapa-sebenarnya-diri-anda.md</loc>
+	<lastmod>2021-04-01T14:35:37+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://mestisukses.com/post/disiplin-meraih-visi-lingkarang-emas-kedua.md</loc>
-  <lastmod>2021-03-27T03:49:00+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://mestisukses.com/post/visi-yang-jelas-mengapa-bisnis-anda-berdiri.md</loc>
+	<lastmod>2021-04-01T14:35:38+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://mestisukses.com/post/konsisten-lingkaran-terluar.md</loc>
-  <lastmod>2021-03-27T03:49:00+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://mestisukses.com/post/disiplin-meraih-visi-lingkarang-emas-kedua.md</loc>
+	<lastmod>2021-04-01T14:35:37+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://mestisukses.com/post/living-consciously.md</loc>
-  <lastmod>2021-03-27T03:49:00+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://mestisukses.com/post/konsisten-lingkaran-terluar.md</loc>
+	<lastmod>2021-04-01T14:35:38+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://mestisukses.com/post/self-acceptance.md</loc>
-  <lastmod>2021-03-27T03:49:00+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://mestisukses.com/post/flow-1-tujuan-dan-feedback.md</loc>
+	<lastmod>2021-04-01T14:35:38+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://mestisukses.com/post/flow-1-tujuan-dan-feedback.md</loc>
-  <lastmod>2021-03-27T03:49:00+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://mestisukses.com/post/langkah-flow.md</loc>
+	<lastmod>2021-04-01T14:35:39+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://mestisukses.com/post/langkah-flow.md</loc>
-  <lastmod>2021-03-27T03:49:00+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://mestisukses.com/post/flow-3.md</loc>
+	<lastmod>2021-04-01T14:35:39+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://mestisukses.com/post/flow-3.md</loc>
-  <lastmod>2021-03-27T03:49:00+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://mestisukses.com/post/living-consciously.md</loc>
+	<lastmod>2021-04-01T14:35:40+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://mestisukses.com/post/how-to-survive.md</loc>
-  <lastmod>2021-03-27T03:49:00+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://mestisukses.com/post/self-acceptance.md</loc>
+	<lastmod>2021-04-01T14:35:39+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://mestisukses.com/post/revolusi-pertanian.md</loc>
-  <lastmod>2021-03-27T03:49:00+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://mestisukses.com/post/atomic-habit.md</loc>
+	<lastmod>2021-04-01T14:35:39+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://mestisukses.com/post/prinsip-kepercayaan.md</loc>
-  <lastmod>2021-03-27T03:49:00+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://mestisukses.com/post/berani-tidak-disukai.md</loc>
+	<lastmod>2021-04-01T14:35:40+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://mestisukses.com/post/atomic-habit.md</loc>
-  <lastmod>2021-03-27T03:49:00+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://mestisukses.com/post/outliers.md</loc>
+	<lastmod>2021-04-01T14:35:40+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://mestisukses.com/post/berani-tidak-disukai.md</loc>
-  <lastmod>2021-03-27T03:49:00+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://mestisukses.com/post/5-hal-yang-penting-dari-sapiens-karya-yuval-noah.md</loc>
+	<lastmod>2021-04-01T14:35:40+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://mestisukses.com/post/outliers.md</loc>
-  <lastmod>2021-03-27T03:49:00+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://mestisukses.com/post/factfulness-hidup-lebih-baik.md</loc>
+	<lastmod>2021-04-01T14:35:40+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://mestisukses.com/post/5-hal-yang-penting-dari-sapiens-karya-yuval-noah.md</loc>
-  <lastmod>2021-03-27T03:49:00+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://mestisukses.com/post/barking-up-the-wrong-tree.md</loc>
+	<lastmod>2021-04-01T14:35:40+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://mestisukses.com/post/factfulness-hidup-lebih-baik.md</loc>
-  <lastmod>2021-03-27T03:49:00+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://mestisukses.com/post/tafsir-quran-di-medsos.md</loc>
+	<lastmod>2021-04-01T14:35:41+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://mestisukses.com/post/barking-up-the-wrong-tree.md</loc>
-  <lastmod>2021-03-27T03:49:00+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://mestisukses.com/post/jual-saham-anda-lebih-mahal.md</loc>
+	<lastmod>2021-04-01T14:35:41+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://mestisukses.com/post/tafsir-quran-di-medsos.md</loc>
-  <lastmod>2021-03-27T03:49:00+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://mestisukses.com/post/rich-dad-poor-dad.md</loc>
+	<lastmod>2021-04-01T14:35:41+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://mestisukses.com/post/jual-saham-anda-lebih-mahal.md</loc>
-  <lastmod>2021-03-27T03:49:00+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://mestisukses.com/post/how-to-survive.md</loc>
+	<lastmod>2021-04-01T14:35:41+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://mestisukses.com/post/rich-dad-poor-dad.md</loc>
-  <lastmod>2021-03-27T03:49:00+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://mestisukses.com/post/revolusi-pertanian.md</loc>
+	<lastmod>2021-04-01T14:35:41+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
-
-
+<url>
+	<loc>https://mestisukses.com/post/prinsip-kepercayaan.md</loc>
+	<lastmod>2021-04-01T14:35:41+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://mestisukses.com/post/keterampilan-membaca.md</loc>
+	<lastmod>2021-04-01T14:35:41+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://mestisukses.com/post/membaca-novel.md</loc>
+	<lastmod>2021-04-01T14:35:41+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
 </urlset>
