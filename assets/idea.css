@@ -63,17 +63,17 @@ h1 span {
     background-position: center 2rem;
 }
 
-.wrapper#book {
+.wrapper.book {
     background-image: url(https://i.ibb.co/znTJYZs/image.png);
     background-repeat: no-repeat;
 }
 
-.wrapper#idea {
+.wrapper.idea {
     background-image: url(https://i.ibb.co/NmZGYgr/image.png);
     background-repeat: no-repeat;
 }
 
-.wrapper#time {
+.wrapper.time {
     background-image: url(https://i.ibb.co/NV0Lh6y/image.png);
     background-repeat: no-repeat;
 }
