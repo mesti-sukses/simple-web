@@ -1573,6 +1573,24 @@ body.home-template .blog-info {
     background: #f6f6f6;
 }
 
+.mainmenu-list ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.mainmenu-list ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.mainmenu-list ul li a {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1.89px;
+    font-weight: 400;
+}
+
 @media (min-width: 1080px) {
     .row .col-xl-8 {
         width: 75%;
@@ -1677,5 +1695,20 @@ body.home-template .blog-info {
     .post-item {
         margin: 0 0 38px 0;
         padding: 0 0 38px 0
+    }
+
+    .header {
+        flex-direction: column;
+    }
+
+    .mainmenu-list ul {
+        margin-top: 1em;
+    }
+
+    .mainmenu-list ul li {
+        display: block;
+        padding-top: .5em;
+        padding-bottom: .25em;
+        border-bottom: solid 1px black;
     }
 }

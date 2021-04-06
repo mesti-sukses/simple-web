@@ -50,6 +50,12 @@
                     <img src="{{ @base }}assets/Mesti-Sukses.jpg" alt="Mesti Sukses" />
                 </a>
             </div>
+            <div class="mainmenu-list">
+                <ul id="nav">
+                    <li><a class="nav-home active" href="{{ @base }}">Home</a></li>
+                    <li><a class="nav-home active" href="{{ @base }}idea">Life-Changing Idea</a></li>
+                </ul>
+            </div>
         </header>
 
         <div class="wrapper">
@@ -62,7 +68,7 @@
                             <section class="archive">
                                 <h2 class="archive-title" itemprop="headLine">{{ @label.nama }}</h2>
                                 <div style="display: none;">
-                                    <img src="{{ @base }}assets/Mesti-Sukses.jpg'" alt="Mesti Sukses" itemprop="image">
+                                    <img src="{{ @base }}assets/Mesti-Sukses.jpg" alt="Mesti Sukses" itemprop="image">
                                 </div>
                                 <div class="archive-description">
                                     <ul class="link-list">
@@ -78,7 +84,7 @@
                     </div>
                     <div class="col-xl-4 col-lg-3">
                         <div class="example-1 card">
-                            <div class="wrapper" id="{{ @firstIdea.icon }}">
+                            <div class="wrapper {{ @firstIdea.icon }}">
                                 <div class="data">
                                     <div class="content">
                                         <span class="card-author">Manajemen Waktu</span>

@@ -49,6 +49,12 @@
                     <img src="{{ @base }}assets/Mesti-Sukses.jpg" alt="Mesti Sukses" />
                 </a>
             </div>
+            <div class="mainmenu-list">
+                <ul id="nav">
+                    <li><a class="nav-home active" href="{{ @base }}">Home</a></li>
+                    <li><a class="nav-home active" href="{{ @base }}idea">Life-Changing Idea</a></li>
+                </ul>
+            </div>
         </header>
 
         <div class="wrapper">
@@ -57,7 +63,7 @@
                 <div class="row">
                     <h1 style="text-align: center;">Life-Changing Idea</h1>
                     <div class="example-1 card">
-                        <div class="wrapper" id="{{ @firstIdea.icon }}">
+                        <div class="wrapper {{ @firstIdea.icon }}">
                             <div class="data">
                                 <div class="content">
                                     <span class="card-author">Manajemen Waktu</span>
