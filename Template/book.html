@@ -6,17 +6,17 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <title>{{ @categories[0]['judul'] }} | Mesti Sukses</title>
+    <title>Daftar Rangkuman Buku | Mesti Sukses</title>
 
-    <meta property="og:title" content="{{ @categories[0]['judul'] }}" />
+    <meta property="og:title" content="Daftar Rangkuman Buku" />
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="{{ @base }}category/{{ @categories[0]['id_category'] }}" />
+    <meta property="og:url" content="{{ @base }}book }}" />
     <meta property="og:image" content="{{ @base }}assets/Mesti-Sukses.jpg" />
-    <meta property="og:description" content="{{ @categories[0]['deskripsi'] }}" />
+    <meta property="og:description" content="" />
 
-    <meta name="canonical" content="{{ @base }}category/{{ @categories[0]['id_category'] }}">
+    <meta name="canonical" content="{{ @base }}book }}">
     <meta name="HandheldFriendly" content="True" />
-    <meta name="description" content="{{ @categories[0]['deskripsi'] }}">
+    <meta name="description" content="Dapatkan manfaat dari sebuah buku hanya dengan waktu kurang dari 10 menit. Baca rangkuman dibawah ini dan rasakan sendiri manfaat yang akan kalian dapatkan.">
     <meta property="fb:pages" content="104391331142078" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="{{ @base }}assets/style.css">
@@ -62,29 +62,30 @@
             <main class="page">
 
                 <section class="post-list" itemscope itemtype="https://schema.org/Article">
-                    <repeat group="{{ @categories }}" key="{{ @number }}" value="{{ @category }}">
-                        <article class="post-item">
-                            <div class="post-item-upper">
-                                <div class="post-item-category">
-                                    <a href="#">{{ @category['nama'] }}</a>
-                                </div>
+                    <article class="post-item">
+                        <div class="post-item-upper">
+                            <div class="post-item-category">
+                                <a href="#">Rangkuman Buku</a>
                             </div>
-                            <div style="display: none;">
-                                <img src="{{ @base }}assets/Mesti-Sukses.jpg'" alt="Mesti Sukses" itemprop="image">
-                            </div>
-                            <h1 class="post-item-title">
-                                <a href="#" itemprop="headLine">{{ @category['judul'] }}</a>
-                            </h1>
-                            <div class="post-item-excerpt">
-                                <span itemprop="articleBody">{{ @category['deskripsi'] }}</span>
-                                <ul class="link-list" style="margin-top: 1.5rem;">
-                                    <repeat group="{{ @category['posts'] }}" key="{{ @number }}" value="{{ @post }}">
-                                        <li><a href="{{ @base }}post/{{ @post['file_name'] }}" itemprop="articleBody">{{ @post['title'] }}</a></li>
-                                    </repeat>
-                                </ul>
-                            </div>
-                        </article>
-                    </repeat>
+                        </div>
+                        <div style="display: none;">
+                            <img src="{{ @base }}assets/Mesti-Sukses.jpg'" alt="Mesti Sukses" itemprop="image">
+                        </div>
+                        <h1 class="post-item-title">
+                            <a href="#" itemprop="headLine">Daftar Rangkuman Buku</a>
+                        </h1>
+                        <div class="post-item-excerpt">
+                            <span itemprop="articleBody">
+                                Dapatkan manfaat dari sebuah buku hanya dengan waktu kurang dari 10 menit.
+                                Baca rangkuman dibawah ini dan rasakan sendiri manfaat yang akan kalian dapatkan.
+                            </span>
+                            <ul class="link-list" style="margin-top: 1.5rem;">
+                                <repeat group="{{ @books }}" key="{{ @number }}" value="{{ @book }}">
+                                    <li><a href="{{ @base }}book/{{ @book['file_name'] }}" itemprop="articleBody">{{ @book['judul'] }}</a></li>
+                                </repeat>
+                            </ul>
+                        </div>
+                    </article>
                 </section>
 
             </main>

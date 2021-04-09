@@ -6,18 +6,17 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <title>{{ @post.title }} | Mesti Sukses</title>
+    <title>{{ @book.judul }} | Mesti Sukses</title>
 
-    <meta property="og:title" content="{{ @post.title }}" />
+    <meta property="og:title" content="{{ @book.judul }}" />
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="{{ @base }}post/{{ @post.file_name }}" />
-    <meta property="og:image" content="{{ ( @post.image != NULL ) ? @post.image : @base.'assets/Mesti-Sukses.jpg' }}" />
-    <meta property="og:description" content="{{ @post.description }}" />
+    <meta property="og:url" content="{{ @base }}book/{{ @book.file_name }}" />
+    <meta property="og:image" content="{{ @base.'assets/Mesti-Sukses.jpg' }}" />
+    <meta property="og:description" content="{{ @book.description }}" />
 
-    <meta name="description" content="{{ @post.description }}">
-    <meta name="canonical" content="{{ @base }}post/{{ @post.file_name }}">
+    <meta name="description" content="{{ @book.description }}">
+    <meta name="canonical" content="{{ @base }}book/{{ @book.file_name }}">
     <meta name="HandheldFriendly" content="True" />
-    <meta name="keyword" content="{{ @post.keyword }}">
     <meta property="fb:pages" content="104391331142078" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="{{ @base }}assets/style.css">
@@ -41,10 +40,10 @@
 <body class="body post-template tag-lifestyle tag-business tag-longform">
     <div id="structured-data" style="display: none;">
         <div id="description">
-            {{ @post.description }}
+            {{ @book.description }}
         </div>
         <div id="title">
-            {{ @post.title }}
+            {{ @book.judul }}
         </div>
     </div>
 
@@ -74,12 +73,12 @@
                 <div class="wrapper">
 
                     <div style="display: none;">
-                        <img src="{{ ( @post.image != NULL ) ? @post.image : @base.'assets/Mesti-Sukses.jpg' }}" alt="Mesti Sukses" itemprop="image">
+                        <img src="{{ @base.'assets/Mesti-Sukses.jpg' }}" alt="Mesti Sukses" itemprop="image">
                     </div>
 
                     <section class="post-header">
-                        <div class="post-header-category"><a href="#">Bisnis</a></div>
-                        <h1 class="post-header-title" itemprop="headLine">{{ @post.title }}</h1>
+                        <div class="post-header-category"><a href="#">Rangkuman Buku</a></div>
+                        <h1 class="post-header-title" itemprop="headLine">{{ @book.judul }}</h1>
                     </section>
 
 
