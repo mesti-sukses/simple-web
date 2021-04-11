@@ -71,7 +71,7 @@
                             </div>
                         </div>
                         <div style="display: none;">
-                            <img src="{{ @base }}assets/Mesti-Sukses.jpg'" alt="Mesti Sukses" itemprop="image">
+                            <img src="{{ @base }}assets/Mesti-Sukses.jpg" alt="Mesti Sukses" itemprop="image">
                         </div>
                         <h1 class="post-item-title">
                             <a href="#" itemprop="headLine">Daftar Rangkuman Buku</a>
@@ -81,6 +81,7 @@
                                 Dapatkan manfaat dari sebuah buku hanya dengan waktu kurang dari 10 menit.
                                 Baca rangkuman dibawah ini dan rasakan sendiri manfaat yang akan kalian dapatkan.
                             </span>
+                            <h2>Daftar Buku</h2>
                             <ul class="link-list" style="margin-top: 1.5rem;">
                                 <repeat group="{{ @books }}" key="{{ @number }}" value="{{ @book }}">
                                     <li><a href="{{ @base }}book/{{ @book['file_name'] }}" itemprop="articleBody">{{ @book['judul'] }}</a></li>

@@ -72,13 +72,14 @@
                                 </div>
                             </div>
                             <div style="display: none;">
-                                <img src="{{ @base }}assets/Mesti-Sukses.jpg'" alt="Mesti Sukses" itemprop="image">
+                                <img src="{{ @base }}assets/Mesti-Sukses.jpg" alt="Mesti Sukses" itemprop="image">
                             </div>
                             <h1 class="post-item-title">
                                 <a href="#" itemprop="headLine">{{ @category['judul'] }}</a>
                             </h1>
                             <div class="post-item-excerpt">
                                 <span itemprop="articleBody">{{ @category['deskripsi'] }}</span>
+                                <h2>Daftar Artikel</h2>
                                 <ul class="link-list" style="margin-top: 1.5rem;">
                                     <repeat group="{{ @category['posts'] }}" key="{{ @number }}" value="{{ @post }}">
                                         <li><a href="{{ @base }}post/{{ @post['file_name'] }}" itemprop="articleBody">{{ @post['title'] }}</a></li>
