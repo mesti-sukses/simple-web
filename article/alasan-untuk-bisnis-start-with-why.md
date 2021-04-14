@@ -95,8 +95,6 @@ Sedikit Cerita Tentang Kemerdekaan
 
 So, sekarang bagaimana dengan strategi untuk menginspirasi?
 
-Beberapa hari yang lalu, adalah hari kemerdekaan kita. Saya sedikit membahas tentang arti penting kemerdekaan tersebut dalam renungan di channel saya yang bisa kalian tonton [di sini](https://youtu.be/nKcUvRFqlM4).
-
 Jika kalian pernah ke luar negeri, mungkin kalian akan sedikit merasa lega dan senang ketika kalian menemukan teman sebangsa Indonesia kalian di sana. Entah itu dari luar kota, luar provinsi, bahkan luar pulau sekalipun, kalian pasti akan merasa senang dan lega dengan kehadiran saudara sebangsa kalian ini.
 
 Pertanyaanya adalah, **kenapa kalian bisa lega dengan hal tersebut?**

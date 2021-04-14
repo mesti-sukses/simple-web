@@ -8,6 +8,12 @@
 
     <title>{{ @categories[0]['judul'] }} | Mesti Sukses</title>
 
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@mesti.sukses" />
+    <meta name="twitter:title" content="{{ @categories[0]['judul'] }}" />
+    <meta name="twitter:description" content="{{ @categories[0]['deskripsi'] }}" />
+    <meta name="twitter:image" content="{{ @base }}assets/Mesti-Sukses.jpg" />
+
     <meta property="og:title" content="{{ @categories[0]['judul'] }}" />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="{{ @base }}category/{{ @categories[0]['id_category'] }}" />
@@ -83,6 +89,12 @@
                                 <ul class="link-list" style="margin-top: 1.5rem;">
                                     <repeat group="{{ @category['posts'] }}" key="{{ @number }}" value="{{ @post }}">
                                         <li><a href="{{ @base }}post/{{ @post['file_name'] }}" itemprop="articleBody">{{ @post['title'] }}</a></li>
+                                    </repeat>
+                                </ul>
+                                <h2>Series Lain</h2>
+                                <ul class="link-list" style="margin-top: 1.5rem;">
+                                    <repeat group="{{ @related }}" key="{{ @number }}" value="{{ @category }}">
+                                        <li><a href="{{ @base }}category/{{ @category['id_category'] }}" itemprop="articleBody">{{ @category['judul'] }}</a></li>
                                     </repeat>
                                 </ul>
                             </div>

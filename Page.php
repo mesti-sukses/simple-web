@@ -24,14 +24,16 @@
 
         function category($f3){
             $id = $f3->get('PARAMS.id');
-            $categoryData = $f3->get('DB')->exec("SELECT id_category, judul, deskripsi, nama FROM category JOIN label on label.id_label = category.label WHERE id_category=".$id);
+            $categoryData = $f3->get('DB')->exec("SELECT id_category, label, judul, deskripsi, nama FROM category JOIN label on label.id_label = category.label WHERE id_category=".$id);
             // print_r($postData);
 
             foreach ($categoryData as $id => $category) {
                 $postData = $f3->get('DB')->exec('SELECT title, file_name FROM posts WHERE category="'.$category['id_category'].'"');
                 $categoryData[$id]['posts'] = $postData;
             }
+            $relatedCategory = $f3->get('DB')->exec("SELECT id_category, judul FROM category WHERE label=".$categoryData[0]['label']);
             $f3->set('categories', $categoryData);
+            $f3->set('related', $relatedCategory);
             // print_r($categoryData);
 
             echo Template::instance()->render('Template/category.html');
@@ -48,6 +50,12 @@
                 $f3->get('PARAMS.fileName').
                 "'"
             );
+            $relatedPost = $f3->get('DB')->exec(
+                "SELECT * FROM posts WHERE category='".
+                $postData[0]['category'].
+                "'"
+            );
+            $f3->set('relatedPost', $relatedPost);
             $f3->set('post', $postData[0]);
 
             echo Template::instance()->render('Template/post.html');

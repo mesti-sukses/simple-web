@@ -7,7 +7,7 @@ Berbagai macam warnet mulai bertaburan, meskipun dengan kecepatan yang
 setara dengan jaringan edge, tapi warnet-warnet itu sangat ramai
 dikunjungi oleh orang-orang.
 
-![Flow State saat Bermain Warnet](https://i.ibb.co/LdRCb7J/image.png)
+![Flow State saat Bermain Warnet](https://i.ibb.co/zZjmVZg/centro1.jpg)
 
 Saya ingat sekali bahwa hari itu adalah hari Minggu, karena saya
 berangkat pag-pagi sekali menuju warnet yang terdekat dari rumah saya

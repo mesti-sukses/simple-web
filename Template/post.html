@@ -8,6 +8,12 @@
 
     <title>{{ @post.title }} | Mesti Sukses</title>
 
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@mesti.sukses" />
+    <meta name="twitter:title" content="{{ @post.title }}" />
+    <meta name="twitter:description" content="{{ @post.description }}" />
+    <meta name="twitter:image" content="{{ ( @post.image != NULL ) ? @post.image : @base.'assets/Mesti-Sukses.jpg' }}" />
+
     <meta property="og:title" content="{{ @post.title }}" />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="{{ @base }}post/{{ @post.file_name }}" />
@@ -87,6 +93,12 @@
                     <div class="post-main">
                         <div class="post-contents" itemprop="articleBody">
                             {{ @content | raw }}
+                            <h2>Artikel Terkait</h2>
+                            <ul>
+                                <repeat group="{{ @relatedPost }}" key="{{ @number }}" value="{{ @related }}">
+                                    <li><a href="{{ @base }}post/{{ @related['file_name'] }}">{{ @related['title'] }}</a></li>
+                                </repeat>
+                            </ul>
                         </div>
                     </div>
 
