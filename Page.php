@@ -24,7 +24,7 @@
 
         function category($f3){
             $id = $f3->get('PARAMS.id');
-            $categoryData = $f3->get('DB')->exec("SELECT id_category, label, judul, deskripsi, nama FROM category JOIN label on label.id_label = category.label WHERE id_category=".$id);
+            $categoryData = $f3->get('DB')->exec("SELECT id_category, label, judul, deskripsi, nama, long_desc FROM category JOIN label on label.id_label = category.label WHERE id_category=".$id);
             // print_r($postData);
 
             foreach ($categoryData as $id => $category) {

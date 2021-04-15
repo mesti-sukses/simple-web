@@ -69,39 +69,49 @@
         <div class="wrapper">
 
             <main class="page">
-                <div class="row">
-                    <h1 style="text-align: center;">Temukan Sukses Kalian Disini</h1>
-                    <div class="col-xl-8 col-lg-9" itemscope itemtype="https://schema.org/Article">
-                        <repeat group="{{ @labels }}" key="{{ @number }}" value="{{ @label }}">
-                            <section class="archive">
-                                <h2 class="archive-title" itemprop="headLine">{{ @label.nama }}</h2>
-                                <div style="display: none;">
-                                    <img src="{{ @base }}assets/Mesti-Sukses.jpg" alt="Mesti Sukses" itemprop="image">
-                                </div>
-                                <div class="archive-description">
-                                    <ul class="link-list">
-                                        <repeat group="{{ @label.categories }}" key="{{ @idCat }}" value="{{ @category }}">
-                                            <li>
-                                                <a href="{{ @base }}category/{{ @category.id_category }}" itemprop="articleBody">{{ @category.judul }}</a>
-                                            </li>
-                                        </repeat>
-                                    </ul>
-                                </div>
-                            </section>
-                        </repeat>
+                <section class="post-header">
+                    <h1 class="post-header-title" itemprop="headLine">Temukan Sukses Kalian Disini</h1>
+                </section>
+                <div class="post-main">
+                    <div class="post-contents">
+                        <p>Semua orang berhak untuk sukses. Web ini ditujukan bagi kalian yang mau belajar bagaimana cara dan tips untuk sukses.</p>
+                        <p>Mungkin sebagian orang hanya menganggap ini semua omong kosong. Ada yang masa bodoh dengan semuanya. Tetapi sebagian orang yang siap menerima merasa bahwa artikel dibawah ini telah mengubah hidup mereka.</p>
+                        <p>Apakah anda termasuk orang-orang tersebut?</p>
                     </div>
-                    <div class="col-xl-4 col-lg-3">
-                        <div class="example-1 card">
-                            <div class="wrapper {{ @firstIdea.icon }}">
-                                <div class="data">
-                                    <div class="content">
-                                        <span class="card-author">Manajemen Waktu</span>
-                                        <h2 class="title">{{ @firstIdea.title }} <span>: {{ @firstIdea.modal_title }}</span></h2>
-                                        <a href="#open-modal-1" id="read">Read</a>
-                                        <div class="text">
-                                            {{ @firstIdea.print | raw }}
-                                            <a href="#open-modal-1" style="float:left">Read More</a>
-                                            <a href="{{ @base }}idea" style="float:right">More Idea</a>
+                    <div style="height: 1em;"></div>
+                    <div class="row">
+                        <div class="col-xl-8 col-lg-9" itemscope itemtype="https://schema.org/Article">
+                            <repeat group="{{ @labels }}" key="{{ @number }}" value="{{ @label }}">
+                                <section class="archive" style="margin-bottom: 1em;">
+                                    <h2 class="archive-title" itemprop="headLine">{{ @label.nama }}</h2>
+                                    <div style="display: none;">
+                                        <img src="{{ @base }}assets/Mesti-Sukses.jpg" alt="Mesti Sukses" itemprop="image">
+                                    </div>
+                                    <div class="archive-description">
+                                        <ul class="link-list">
+                                            <repeat group="{{ @label.categories }}" key="{{ @idCat }}" value="{{ @category }}">
+                                                <li>
+                                                    <a href="{{ @base }}category/{{ @category.id_category }}" itemprop="articleBody">{{ @category.judul }}</a>
+                                                </li>
+                                            </repeat>
+                                        </ul>
+                                    </div>
+                                </section>
+                            </repeat>
+                        </div>
+                        <div class="col-xl-4 col-lg-3">
+                            <div class="example-1 card">
+                                <div class="wrapper {{ @firstIdea.icon }}">
+                                    <div class="data">
+                                        <div class="content">
+                                            <span class="card-author">Manajemen Waktu</span>
+                                            <h2 class="title">{{ @firstIdea.title }} <span>: {{ @firstIdea.modal_title }}</span></h2>
+                                            <a href="#open-modal-1" id="read">Read</a>
+                                            <div class="text">
+                                                {{ @firstIdea.print | raw }}
+                                                <a href="#open-modal-1" style="float:left">Read More</a>
+                                                <a href="{{ @base }}idea" style="float:right">More Idea</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

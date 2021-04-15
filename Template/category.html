@@ -85,6 +85,7 @@
                             </h1>
                             <div class="post-item-excerpt">
                                 <span itemprop="articleBody">{{ @category['deskripsi'] }}</span>
+                                <p>{{ @category['long_desc'] }}</p>
                                 <h2>Daftar Artikel</h2>
                                 <ul class="link-list" style="margin-top: 1.5rem;">
                                     <repeat group="{{ @category['posts'] }}" key="{{ @number }}" value="{{ @post }}">
