@@ -1,6 +1,7 @@
 <?php
     require 'vendor/autoload.php';
     require 'Page.php';
+    require 'Feed.php';
 
     $f3 = \Base::instance();
 
@@ -13,6 +14,7 @@
     $f3->route('GET /idea', 'Page->idea');
     $f3->route('GET /book', 'Page->book');
     $f3->route('GET /book/@fileName', 'Page->summary');
+    $f3->route('GET /rss', 'Page->rss');
 
     $f3->run();
 ?>

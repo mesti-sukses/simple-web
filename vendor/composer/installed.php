@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '71af19aff501def57d0f493af906be91c92e1ba9',
+    'reference' => '26b64808835fce656a0091f935434318401839c1',
     'name' => '__root__',
   ),
   'versions' => 
@@ -18,16 +18,16 @@
       'aliases' => 
       array (
       ),
-      'reference' => '71af19aff501def57d0f493af906be91c92e1ba9',
+      'reference' => '26b64808835fce656a0091f935434318401839c1',
     ),
     'bcosca/fatfree-core' => 
     array (
-      'pretty_version' => '3.7.2',
-      'version' => '3.7.2.0',
+      'pretty_version' => '3.7.3',
+      'version' => '3.7.3.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'a0f7ecf456a2f1e099a9b6d7aedc22970be56030',
+      'reference' => '3e23ae05384b2f830e99c5888b94118819ed948b',
     ),
     'erusev/parsedown' => 
     array (

@@ -102,5 +102,58 @@
 
             echo Template::instance()->render('Template/summary.html');
         }
+
+        function rss($f3){
+            $feed = new \Zelenin\Feed;
+
+            // $feed->addChannel();
+            $feed->addChannel('https://mestisukses.com/rss');
+
+            // required channel elements
+            $feed
+                ->addChannelTitle('Mesti Sukses')
+                ->addChannelLink('https://mestisukses.com')
+                ->addChannelDescription('Semua orang berhak untuk sukses. Web ini ditujukan bagi kalian yang mau belajar bagaimana cara dan tips untuk sukses. Apakah anda adalah orangnya? Check it out.');
+
+            // optional channel elements
+            $feed
+                ->addChannelLanguage('id-ID')
+                ->addChannelCopyright('Channel copyright, ' . date('Y'))
+                ->addChannelManagingEditor('yanruzika@mestisukses.com (Prof. Why)')
+                ->addChannelWebMaster('yanruzika@mestisukses.com (Prof. Why)')
+                ->addChannelPubDate(1300000000) // timestamp/strtotime/DateTime
+                ->addChannelLastBuildDate(1300000000) // timestamp/strtotime/DateTime
+                ->addChannelCategory('Self Improvement', 'https://mestisukses.com')
+                ->addChannelCloud('rpc.sys.com', 80, '/RPC2', 'myCloud.rssPleaseNotify', 'xml-rpc')
+                ->addChannelTtl(60) // minutes
+                ->addChannelImage('http://example.com/channel.jpg', 'http://example.com', 'Image description', 88, 31)
+                ->addChannelRating('5 Stars')
+                ->addChannelTextInput('Title', 'Description', 'Name', 'https://mestisukses.com')
+                ->addChannelSkipHours(array())
+                ->addChannelSkipDays(array());
+
+            $postData = $f3->get('DB')->exec(
+                "SELECT * FROM posts JOIn category on category.id_category = posts.category JOIN label on category.label = label.id_label"
+            );
+            foreach ($postData as $key => $post) {
+                $feed->addItem();
+
+                // title or description are required
+                $feed
+                    ->addItemTitle($post['title'])
+                    ->addItemDescription($post['description']);
+
+                $feed
+                    ->addItemLink('https://mestisukses.com/post/'.$post['file_name'])
+                    ->addItemAuthor('Prof. Why')
+                    ->addItemCategory($post['nama'], 'https://mestisukses.com/category/'.$post['category'])
+                    ->addItemEnclosure($post['image'], 99999, 'image/*')
+                    ->addItemGuid('https://mestisukses.com/post/'.$post['file_name'])
+                    ->addItemPubDate(1618458563);
+            }
+
+            echo $feed;
+
+        }
     }
 ?>
