@@ -92,6 +92,12 @@
                     <div class="post-main">
                         <div class="post-contents" itemprop="articleBody">
                             {{ @content | raw }}
+                            <h2>Buku Lain</h2>
+                            <ul>
+                                <repeat group="{{ @relatedPost }}" key="{{ @number }}" value="{{ @related }}">
+                                    <li><a href="{{ @base }}book/{{ @related['file_name'] }}">{{ @related['judul'] }}</a></li>
+                                </repeat>
+                            </ul>
                         </div>
                     </div>
 
