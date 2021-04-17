@@ -82,6 +82,10 @@
                     <div class="row">
                         <div class="col-xl-8 col-lg-9" itemscope itemtype="https://schema.org/Article">
                             <h2>Bacaan Series Mesti Sukses</h2>
+                            <hr>
+                            <p>
+                                Dibawah ini adalah beberapa artikel yang sudah dikumpulkan berdasarkan tema beserta label dengan sedikit penjelasan di dalamnya agar kalian mengerti apa isi dari artikel yang akan dibahas dalam tema tersebut.
+                            </p>
                             <repeat group="{{ @labels }}" key="{{ @number }}" value="{{ @label }}">
                                 <section class="archive" style="margin-bottom: 1em;">
                                     <div class="post-header-category">
@@ -102,6 +106,13 @@
                                 </section>
                             </repeat>
                             <h2>Rangkuman Buku Mesti Sukses</h2>
+                            <hr>
+                            <p>
+                                Selain itu, mesti sukses juga menyediakan beberapa rangkuman buku yang bisa kalian baca sambil lalu.
+                            </p>
+                            <p>
+                                Kami sudah membaca buku ini dan menganalisis beberapa isi penting yang berguna di dalamnya. Selain kami merangkumnya menjadi beberapa halaman saja, kami juga menyediakan poin-poin yang bisa kalian dapatkan dan kalian terapkan dalam kehidupan sehari-hari kalian.
+                            </p>
                             <ul class="link-list" style="margin-top: 1.5rem;">
                                 <repeat group="{{ @books }}" key="{{ @number }}" value="{{ @book }}">
                                     <li><a href="{{ @base }}book/{{ @book['file_name'] }}" itemprop="articleBody">{{ @book['judul'] }}</a></li>
