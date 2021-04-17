@@ -10,8 +10,12 @@
             }
             $f3->set('labels', $labelData);
 
+            $bookData = $f3->get('DB')->exec("SELECT * FROM book");
+            $f3->set('books', $bookData);
+
             $parseDown = new Parsedown();
             $ideData = $f3->get('DB')->exec('SELECT * FROM idea');
+            srand(date('dmY'));
             $ide_1 = rand(0, count($ideData)-1);
             $firstIdea = $ideData[$ide_1];
             $firstIdea['print'] = $parseDown->text($firstIdea['content']);

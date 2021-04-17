@@ -101,9 +101,15 @@
                                     </div>
                                 </section>
                             </repeat>
+                            <h2>Rangkuman Buku Mesti Sukses</h2>
+                            <ul class="link-list" style="margin-top: 1.5rem;">
+                                <repeat group="{{ @books }}" key="{{ @number }}" value="{{ @book }}">
+                                    <li><a href="{{ @base }}book/{{ @book['file_name'] }}" itemprop="articleBody">{{ @book['judul'] }}</a></li>
+                                </repeat>
+                            </ul>
                         </div>
                         <div class="col-xl-4 col-lg-3">
-                            <div class="subscibe" style="margin-top: 2em;">
+                            <div class="subscibe" style="margin-top: 1em;">
                                 <h2>Terus Berkembang Tiap Minggu?</h2>
                                 <p>Apakah setiap Senin kalian selalu berjuang melawan rasa malas kalian?</p>
                                 <p>Apakah kehidupan kalian tampak membosankan?</p>
@@ -111,6 +117,15 @@
                                 <p>
                                     <a href="https://t.me/mestisukses_bot">Join Telegram</a>
                                 </p>
+                            </div>
+                            <hr>
+                            <div>
+                                <h2>Idea of The Day</h2>
+                                <h3>{{ @firstIdea.modal_title }}</h3>
+                                <div>
+                                    {{ @firstIdea.print | raw }}
+                                    {{ @firstIdea.detail_print | raw }}
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -127,16 +142,6 @@
             </section>
 
         </footer>
-        <div id="open-modal-1" class="modal-window">
-            <div>
-                <a href="#" title="Close" class="modal-close">Close</a>
-                <h2>{{ @firstIdea.modal_title }}</h2>
-                <div>
-                    {{ @firstIdea.print | raw }}
-                    {{ @firstIdea.detail_print | raw }}
-                </div>
-            </div>
-        </div>
 
     </div>
 </body>
