@@ -133,7 +133,7 @@
                         <h2><span>BURUAN!!!</span> Pre Order Sekarang !</h2>
                         <p>Hidup anda hanya sebentar, sangat sayang sekali jika anda menyia-nyiakannya untuk melakukan sesuatu yang tidak kalian pahami.</p>
                         <p>Pesan sekarang dan jalani hidup anda dengan lebih baik.</p>
-                        <a href="index.html#" class="btn btn-action"><span>Get Copy</span></a>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal" class="btn btn-action"><span>Pre Order Sekarang</span></button>
                     </div>
                 </div>
                 <div class="f-right">
@@ -340,6 +340,36 @@
         </div> <!-- Main -->
     </div><!-- Wrapper -->
 
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <form action="https://be.mailketing.co.id/webform.php?id=4974" method="POST">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Pre Order Buku Cetak</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Nama" name="first_name" id="first_name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Alamat email" name="email" id="email">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Nomor WhatsApp" name="mobile" id="mobile">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">Pre Order</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 
     <!-- Jquery and Js Plugins -->
     <script type="text/javascript" src="{{ @base }}landing_page/js/jquery-2.1.1.js"></script>
