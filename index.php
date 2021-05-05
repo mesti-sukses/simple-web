@@ -15,6 +15,7 @@
     $f3->route('GET /book', 'Page->book');
     $f3->route('GET /book/@fileName', 'Page->summary');
     $f3->route('GET /rss', 'Page->rss');
+    $f3->route('GET /filsafat-itu-penting', 'Page->bukuFilsafat');
 
     $f3->run();
 ?>

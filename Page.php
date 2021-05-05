@@ -164,5 +164,9 @@
             echo $feed;
 
         }
+
+        function bukuFilsafat($f3){
+            echo Template::instance()->render('Template/landing.html');
+        }
     }
 ?>
