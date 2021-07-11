@@ -32,9 +32,8 @@ Contoh:
 1. Dari dulu segini, ya emang kayak gini aja deh
 2. Memang semua orang juga gitu
 3. Ini semua salahku
- 
 Hal yang paling penting dalam menyerah dan tangguh adalah kisah yang sudah kalian ceritakan kepada diri kalian sendiri. Semua hal yang ada dalam kehidupan manusia adalah kisah, dan otak kita mencari jalan tercepat untuk bisa melengkapi kisah tersebut agar tercipta kisah yang kita inginkan.
- 
+
 Sekarang setelah berbicara tentang teguh, kita bicara tentang menyerah. Kenapa kita harus menyerah? Karena berteguh dalam satu hal artinya menyerah dalam hal yang lain, oleh karena itu cobalah berbagai macam hal dan kemudian lihat apakah hal tersebut berharga. Jika tidak menyerahlah, dan jika ya maka lanjutkan.
  
 Buat seperti game dengan menambahkan berbagai macam komponen seperti:
@@ -42,7 +41,7 @@ Buat seperti game dengan menambahkan berbagai macam komponen seperti:
 2. Novel, harus ada tantangan baru setiap naik level
 3. Goal, setiap level berada pada tujuan yang jelas
 4. Feedback, gunakan goal yang measurable sehingga trackback nya bisa dilihat
- 
+
 Untuk melihat apakah kalian bisa menyerah atau tidak, gunakan rumus akar. Misal kalian memiliki 100 pilihan, 10 pilihan pertama adalah sampah, setelah itu carilah hal yang terbarik setelah 10 orang tersebut (buat jurnal targetnya)
  
 So, beberapa hal yang mungkin bisa diimplementasikan dan dibikin jurnal:
